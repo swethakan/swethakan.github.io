@@ -1,0 +1,106 @@
+
+h1{
+	font-family: 'Gothic A1', sans-serif;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+h2{
+	font-family: 'Gothic A1', sans-serif, thin;
+	text-align: center;
+}
+
+head{
+	width:100%;
+	max-width:800px;
+	margin: auto;
+}
+
+body{
+	width:100%;
+	margin: auto;
+}
+
+
+
+.button{
+background: black;
+color: white;
+font-family: 'Gothic A1', sans-serif, bold;
+outline: none;
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+float: right;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFF;
+}
+
+/* Navbar links */
+#navbar a {
+  font-family: 'Righteous', regular;
+  font-size: 20px;
+  float: right;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navFormat{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#Name {
+  font-family: 'Righteous', regular;
+  font-size: 25px;
+  float: left;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+#Storyteller {
+  font-family: 'Gothic A1', sans-serif, thin;
+  float: left;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+  color: #9f9f9f;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.grid-display{
+	width: 100%;
+	max-width: 900px;
+	margin:auto;
+}
+.col-4{
+	margin:auto;
+	text-align: center;
+}
+
