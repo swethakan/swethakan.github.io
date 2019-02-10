@@ -1,75 +1,336 @@
 <!doctype html>
 <html>
+
 	<head>
 	    <meta charset="utf-8">
     	<title>Swetha Kannan Portfolio</title>
 		<h1></h1>
-		<div style = "margin-bottom:300px;"></div>
+		<!-- <div style = "margin-bottom:300px;"></div> -->
 	</head>
 
 	<body>
-	 <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet"> 
-	  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	 <link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" type="text/css" href="grid/simple-grid.min.css">
-	 <link rel="stylesheet" type="text/css" href="grid/simple-grid.css">
-    <script src="jquery.js"></script>
+	 	<link rel="stylesheet" type="text/css" href="style.css">
+     	<script src="jquery.js"></script>
+
+     	<div id = "Reel" class = "BG_color_orange_dia">
+     		<div style = "max-width:1000px; width:auto; margin:auto;">
+     		<img style= "max-width:500px;" src="images/Intro.png"></img>
+     		</div>
+     		<div style = "margin:auto; left: 50%; position: absolute; transform: translate(-50%);">
+     		<video style = "margin:auto;" width="470" height="255" poster="thumbnail.png" controls>
+			    <source src="reel.mp4" type="video/mp4">
+  				Your browser does not support the video tag.
+			</video>
+			</div>
+     	</div>
+
+    	<div class= "BG_color_orange">	
+    		<div style= "text-align:center;">
+    			<img src="images/portfolio.png" style= "max-width:370px;">	
+    		</div>	
+
+			<div id="buttonGroup">
+				<button class="selectedButton" onclick="minContent()" type="button" data-filter="all">All</button>
+			    <button class="notSelectedButton" onclick="minContent()" type="button" data-filter=".category-a">Animation</button>
+			    <button class="notSelectedButton" onclick="minContent()" type="button" data-filter=".category-e">Editorial</button>
+			    <button class="notSelectedButton" onclick="minContent()" type="button" data-filter=".category-i">Experimental</button>
+			    <button class="notSelectedButton" onclick="minContent()" type="button" data-filter=".category-g">Games</button>
+			</div>
+			<div class="container bigger" id = "Portfolio">
+			  <div class="mix category-a" data-order="1" id= "block">
+			  		<div class="collapsible" id="one">
+						 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/rusulka/rusulka1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/rusulka/rusulka2.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/rusulka/rusulka3.png)no-repeat center;"></div>
+				    </div>
+			  		<h7>Rusulka</h7>
+			   </div>
+			  	
+			</div>
+			 <div class="mix category-g category-a" data-order="2" id= "block">
+			  		<div class="collapsible" id="two">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/sisyphus/sisyphus1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/sisyphus/sisyphus2.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/sisyphus/sisyphus3.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>Sisyphus</h7>
+			  		</div>
+			 </div>
+			 <div class="mix category-g" data-order="3" id= "block">
+			  		 <div class="collapsible" id="three">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/BelleTower/BelleTower1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/BelleTower/BelleTower4.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/BelleTower/BelleTower3.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>Belle Tower</h7>
+			  		</div>
+			 </div> 
+		     <div class="content" id="c_one">
+			  		<p>A massive animation created for the Florida Grand Opera's performance of "Rusulka". Lead by Michelle Ma, 7 other artists and I took turns animating this draft to create this amazing final product.</p>
+			 </div>
+			 <div class="content" id="c_two">
+			  		<p>Created for GDC 2016 with three others who handled coding, art, and more. I modelled and animated the main character, designed background elements, and kept our spirites high during the 24-hour game jam!</p>
+			 </div>
+			 <div class="content" id="c_three">
+			  		<p>An unconventional look at the 'princess in a castle' story line. Created alongside Nivetha Kannan for a month long game jam exploring the concept of love. </p>
+			 </div>
+			 <div class="mix category-g" data-order="4" id= "block">
+			  		 <div class="collapsible" id="four">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/Spool/spool1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/Spool/spool3.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/Spool/spool.gif)no-repeat center;"></div>
+					 </div>
+			  		 <h7>SPOOL</h7>
+			  		</div>
+			 </div>
+			 <div class="mix category-a" data-order="5" id= "block">
+			  		 <div class="collapsible" id="five">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/Sasheer/Sasheer1.gif)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/Sasheer/Sasheer3.gif)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/Sasheer/Sasheer2.gif)no-repeat center;"></div>
+						</div>
+			  		 <h7>Sasheer Zamata shares... </h7>
+			  		</div>
+			 </div>
+			 <div class="mix category-e category-i mix category-g" data-order="6" id= "block">
+				  	 <div class="collapsible" id="six">
+			  		 	<div class='slider' style= "margin-top:0px;">
+						  <div class='slide4' style = "background: url(https://latimes-graphics-media.s3.amazonaws.com/assets/img/Brady-list/Hub_brady_list_narrative.gif)no-repeat center;"></div>
+						</div>
+			  		 <h7>Can you win in this system?</h7>
+			  		</div>
+			 </div> 
+			 <div class="content" id="c_four">
+			  		<p>Created alongside longtime collaborator and sister, Nivetha Kannan. "Spool" takes you to the moon and combines concepts of feminism, race, and gender to provide an entertaining fantasy/horror tale.</p>
+			 </div>
+			 <div class="content" id="c_five">
+			  		<p>A collaboration with artist, Arthur Jones, to animate a skit commissioned by SNL comedian Sasheer Zamata. Animations were done by me scripting and compositing handled by Arthur.</p>
+			 </div>
+			 <div class="content" id="c_six">
+			  		<p>Newsgames aren't easy but when they strike, they strike true. This game was highly successful and detailed the process of battling a dishonest cop in California court. The state keeps tight security over officer personal records makign it difficult for defendants to use this information in court. With five other reporters, I introduced a new way to tell stories to the newsroom and orchestrated a massive effort to get this unconventional 'story' published. It helped very much that Len de Groot, my supervisor at the time, was supportive.</p>
+			  </div>
+			  <div class="mix category-e" data-order="7" id= "block">
+			  		 <div class="collapsible" id="seven">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide4' style = "background: url(./images/donut/donut.gif)no-repeat center;"></div>
+						</div>
+			  		 <h7>L.A.'s pink donut boxes</h7>
+			  		</div>
+			  </div>
+			  <div class="mix category-e" data-order="8" id= "block">
+			  		 <div class="collapsible" id="eight">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/dogs/dogs1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/dogs/dogs2.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/dogs/dogs3.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>The most popular dogs in L.A. 2017</h7>
+			  		</div>
+			  </div>
+			  <div class="mix category-e category-i" data-order="9" id= "block">
+				  	 <div class="collapsible" id="nine">
+			  		 	<div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/microCasa/microCasa.gif)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/microCasa/microCasa1.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/microCasa/microCasa2.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>A look inside a mexican "Micro-casa"</h7>
+			  		</div>
+			  </div> 
+			  <div class="content" id="c_seven">
+			  		<p>A strory that look into the origin of L.A.'s iconic pink donut boxes by David Pierson. Following the feel-good tone of the story I crafted a few shareable gifs that embedded well into the story. This story was the highest viewed page on our site the day it published with over 12,000 readers on the page at any given time.</p>
+			  </div>
+			  <div class="content" id="c_eight">
+			  		<p>A look into the most popular dogs in L.A. Reported the story. Designed and coded the page along with Jon Schluess.</p>
+			  </div>
+			  <div class="content" id="c_nine">
+			  		<p>A video that puts you inside a reviled "mini-casa". "Built fast and cheap, mini-casas were intended to help address the country’s affordable housing shortage and deliver on the Mexican Constitution’s promise of “dignified and decent” housing for its citizens.</p>
+			  </div>
+			  <div class="mix category-e category-a" data-order="10" id= "block">
+			  		 <div class="collapsible" id="ten">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide4' style = "background: url(./images/shareable/shareable1.gif)no-repeat center;"></div>
+						</div>
+			  		 <h7>L.A. Times share-ables</h7>
+			  		</div>
+			  </div>
+			  <div class="mix category-e category-a" data-order="11" id= "block">
+			  		 <div class="collapsible" id="eleven">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/catchRelease/catchRelease.gif)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/catchRelease/catchRelease2.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/catchRelease/catchRelease1.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>Trump's 'catch and release' problem</h7>
+			  		</div>
+			  </div>
+			  <div class="mix category-e" data-order="12" id= "block">
+				  	 <div class="collapsible" id="twelve">
+			  		 <div class='slider' style= "margin-top:0px;">
+						  <div class='slide1' style = "background: url(./images/Weinstien/Weinstien1.png)no-repeat center;"></div>
+						  <div class='slide2' style = "background: url(./images/Weinstien/Weinstien2.png)no-repeat center;" ></div>
+						  <div class='slide3' style = "background: url(./images/Weinstien/Weinstien3.png)no-repeat center;"></div>
+						</div>
+			  		 <h7>Those accused in the #metoo movement</h7>
+			  		</div>
+			  </div> 
+			  <div class="content" id="c_ten">
+			  		<p>Shareables amake pages more consumable for readers. These gifs can summarize in one second what exactly the reader will take away from the story and can provide an avenue for reader engagment via social media.</p>
+			  </div>
+			  <div class="content" id="c_eleven">
+			  		<p>An explainer created within the span of 6 hours when Donald Trump signed a document that would discontinue the practice of seperating children from their families. An example of breaking news and how quickly an animator can react to it.</p>
+			  </div>
+			  <div class="content" id="c_twelve">
+			  		<p>Newsgames aren't easy but when they strike, they strike true. This game was highly successful and detailed the process of battling a dishonest cop in California court. The state keeps tight security over officer personal records makign it difficult for defendants to use this information in court. With five other reporters, I introduced a new way to tell stories to the newsroom and orchestrated a massive effort to get this unconventional 'story' published. It helped very much that Len de Groot, my supervisor at the time, was supportive.</p>
+			  </div>
+
+			</div> <!-- end of portfolio div -->
+
+			<div id = "About">
+				<div id = "aboutText">
+					<p id = "about1">This is Swetha Kannan</p>
+					<p id = "about2">(Shh-way-tha Can-non)</p>
+					<p id = "about3">She is based in Los Angeles and works in editorial graphics</p>
+					<a href="resume.pdf"><p id = "about4">Click here for her resume.</p></a>
+					<img src = "images/logos.png" style="width:70%;"></img>
+					<!-- <p id = "about5" style="margin-bottom;margin-bottom: 0px">Interested? You can contact her here.</p> -->
+					<div style="hight:200px;"></div>
+					<a href="mailto:swethakan0@gmail.com" id = "about5" style="margin-bottom;margin-bottom: 0px; color:black;">Interested? You can contact her here.</a>
+				</div>
+				
+				<div id = "AboutPicture"> 
+					<img src="images/headless.png"></img>
+				</div>
+
+			</div>
+			<div id = "Bottom">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 1198 445" style="margin-top: -130px; enable-background:new 0 0 1198 445;" xml:space="preserve">
+				<style type="text/css">
+					.st0{fill:#4A5525;}
+					.st1{fill:#81924D;}
+				</style>
+				<path class="st0" d="M0,445V90c561,0,547,297,1198,297v58H0z"/>
+				<path class="st1" d="M0,445V90c561,0,547,354,1198,354v1H0z"/>
+				</svg>
+				<div id = "bottomG">
+				<div id= "imageSet">
+						<p id = "imageSet1">What does Swetha do for fun?</p>
+						<p id = "imageSet2">Follow her recreational media</p>
+						<a href="https://www.instagram.com/limedumplr/"><img src="logos/instagram.png"></a>
+						<a href="http://limedumplr.tumblr.com/"><img src="logos/tumblr.png"></a>
+						<a href="https://twitter.com/LimeDumplr"><img src="logos/twitter.png"></a>
+						<a href="https://www.pinterest.com/BlindBean/"><img src="logos/pinterest.png"></a>
+				</div>
+					<div style="text-align:center; margin-top:40px;">
+						<img src="images/sewBottom.png" style="max-width:200px; margin:auto; text-align: center;"></img>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!-- 	</div >
+
+	<div class="container medium">
+
+	</div>
+
+	<div class="container mobile">
+
+	</div> -->
+
 
 	<div id = "Intro">
 		 <div id="navbar" class = "sticky">
 			 <div id = "navFormat">
-				  <p id="Name">Swetha Kannan</p>
-				  <p id="Storyteller">CREATIVE STORYTELLER</p>
-				  <a href="#home" id = "home">Home</a>
-				  <a href="#news">News</a>
-				  <a href="contact.html">Contact</a>
+				  <p id="Name" class = "bigger">Swetha Kannan</p>
+				  <p id="Storyteller" class = "bigger">CREATIVE STORYTELLER</p>
+				  <a href="index.html#About">Contact</a>
+				  <a href="index.html#Portfolio" >Portfolio</a>
+				  <a href="index.html#Reel">Demo Reel</a>
 			  </div>
-		 </div>
-		 <div class="grid-display">
-		        <div class="row">
-			        <div class="col-4">
-			            <p>
-			              one
-			            </p>
-			        </div>
-			        <div class="col-4">
-			            <p>
-			              eleven
-			            </p>
-			        </div>
-			        <div class="col-4">
-			            <p>
-			              eleven
-			            </p>
-			        </div>
-		        </div>
-		        <div class="row">
-		        	<div class="col-4">
-			            <p>
-			              one
-			            </p>
-			        </div>
-			        <div class="col-4">
-			            <p>
-			              eleven
-			            </p>
-			        </div>
-			        <div class="col-4">
-			            <p>
-			              eleven
-			            </p>
-			        </div>
-		        </div>
-         </div>
+	</div>
 
-	<div>
-	<div id = "Portfolio">
+	<script type="text/javascript" src="handle.js"></script>
+    <script src="mixitup.min.js"></script>
+    <script type="text/javascript">
+        var mixer = mixitup('.container');
+        
+        var coll = document.getElementsById("block");
+        var i;
 
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+
+        function minContent(){
+        	var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+				if($(coll[i]).hasClass("active")){
+				  coll[i].classList.toggle("active");
+				  var content = document.getElementById("c_"+coll[i].id);
+				  if (content.style.maxHeight){
+			      	content.style.maxHeight = null;
+		    	  }else {
+		      		content.style.maxHeight = content.scrollHeight + "px";
+		    	  } 
+		    	}
+		    }
+
+        }
+        //loop through divs with the same class "Block" - check if they are visible - discard all ids - add a "block" id - then add a "num" id to those that are visible
+        //on the third "num", insert a "collapsible" div after it 
+        //delete all collapsable divs for every button click
+
+    </script>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		  	activeStuff = document.getElementsByClassName("active")
+		  	//console.log(activeStuff.length >0 && activeStuff[0]!= this)
+			if(activeStuff.length >0 && activeStuff[0] != this)
+			{
+				minContent();
+				this.classList.toggle("active");
+		    	var content = document.getElementById("c_"+this.id);
+		    	if (content.style.maxHeight){
+		      	content.style.maxHeight = null;
+		   	 	} else {
+		     	 content.style.maxHeight = content.scrollHeight + "px";
+		   	 	} 
+		   	}
+		   	else{
+		   	 	this.classList.toggle("active");
+		    	var content = document.getElementById("c_"+this.id);
+		    	if (content.style.maxHeight){
+		      	content.style.maxHeight = null;
+		   	 	} else {
+		     	 content.style.maxHeight = content.scrollHeight + "px";
+		   	 	} 
+
+		   	}
+			
+		  });
+		}
+	</script>
 	</body>
-
-
-	<footer>	
-	</footer>
 </html>

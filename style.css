@@ -1,4 +1,125 @@
 
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("fonts/LemonMilk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Overpass reg";
+  src: url("fonts/overpass-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Overpass light";
+  src: url("fonts/overpass-light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Overpass bold";
+  src: url("fonts/overpass-bold.otf") format("opentype");
+}
+
+.slider {
+  max-width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 189px;
+}
+.slide1 {
+ /* background: url(./images/Spool/spool3.png)no-repeat center;*/
+      background-size: cover!important;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+
+} 
+.slide2 {
+  /*background: url(./images/Spool/spool1.png)no-repeat center;*/
+      background-size: cover!important;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide3 {
+   /* background: url(./images/Spool/spool2.png)no-repeat center;*/
+      background-size: cover!important;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+
+.slide4 {
+  background-size: cover!important;
+
+  }
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+
+
+
+.BG_color_orange{
+  background-color: #ED7C63;
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+
+.BG_color_orange_dia {
+  position: relative;
+  height: 500px;
+  background: white;
+  overflow: hidden;
+}
+.BG_color_orange_dia:after,
+.BG_color_orange_dia:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  transform-origin: right bottom;
+}
+.BG_color_orange_dia:before {
+  bottom: 0px;
+  background: #81924D;
+  transform: skewY(-19deg);
+}
+.BG_color_orange_dia:after {
+  bottom: -120px;
+  background: #4E5C29;
+  transform: skewY(-15deg);
+}
+span {
+  position: relative;
+  z-index: 2;
+}
+
+/* Just for demo */
+
+
+
 h1{
 	font-family: 'Gothic A1', sans-serif;
 	text-align: center;
@@ -20,6 +141,113 @@ head{
 body{
 	width:100%;
 	margin: auto;
+  background-color: white;
+}
+#About{
+	background-color: white;
+	padding-bottom: none;
+	margin-bottom: none;
+}
+/*BOTTOM*/
+	#Bottom{
+		padding-top: none;
+		background-color: white;
+		margin-top: none;
+	}
+	#bottomG{
+		background-color: #81924D;
+		min-height: 200px;
+		margin-top: -20px;
+	}
+	#imageSet{
+		margin: auto;
+		text-align: center;
+	}
+	#imageSet img{
+		width:50px;
+		margin: 20px 20px 10px 20px;
+
+	}
+	#imageSet1{
+		font-family: "Lemon Milk", bold;
+		font-size: 20px;
+		margin-top: 0px;
+		color:white;
+		letter-spacing: 5px;
+	}
+	#imageSet2{
+		font-family: "Overpass light";
+		font-size: 18px;
+		color:white;
+		letter-spacing: 10px;
+	}
+/*BOTTOM*/
+
+.mixitup-control-active{
+ background-color: #ED7C63!important;
+}
+
+#buttonGroup{
+  display: block;
+  max-width:1000px; 
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#buttonGroup button{
+  color: #ffffff;
+  border-radius: 25px;
+  border:none;
+    background-color: #FC8A72;
+    font-size: 14px;
+    min-width: 17%;
+    padding: 2px 4px;
+    line-height: 1.9;
+    margin: 3px 7px 3px 0px;
+    font-family: 'Gothic A1', sans-serif, bold;
+}
+#buttonGroup button:hover{
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #DC5D42;
+}
+button:focus, input[type="button"]:focus {
+    outline: none;
+}
+
+#block{
+  width: 32%;
+  min-height: 100px;
+  display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+.container{
+  display: block;
+  max-width:1000px; 
+  width:100%;
+  min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  margin:auto;
+  text-align: left;
+    padding-top: 1rem;
+  }
+
+  .content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.active, #block:hover {
+  background-color: #ccc;
 }
 
 
@@ -35,6 +263,10 @@ margin-right: 10px;
 float: right;
 }
 
+a{
+	text-decoration: none;
+}
+
 #navbar {
   overflow: hidden;
   background-color: #FFF;
@@ -42,7 +274,7 @@ float: right;
 
 /* Navbar links */
 #navbar a {
-  font-family: 'Righteous', regular;
+  font-family: 'Lemon Milk', regular;
   font-size: 20px;
   float: right;
   display: block;
@@ -52,11 +284,11 @@ float: right;
   text-decoration: none;
 }
 #navFormat{
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 #Name {
-  font-family: 'Righteous', regular;
+  font-family: 'Lemon Milk', regular;
   font-size: 25px;
   float: left;
   display: inline-block;
@@ -82,11 +314,6 @@ float: right;
   text-decoration: none;
 }
 
-/* Page content */
-.content {
-  padding: 16px;
-}
-
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -94,13 +321,173 @@ float: right;
   width: 100%;
 }
 
-.grid-display{
-	width: 100%;
-	max-width: 900px;
-	margin:auto;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #FFF;
+  padding: 10px;
+  margin:auto;
+  width:90%;
 }
-.col-4{
-	margin:auto;
-	text-align: center;
+
+/*ABOUT*/
+	#AboutPicture{
+		width: 50%;
+		margin-left: 0px;
+		margin-right: auto; 
+		float:left;
+	}
+	#AboutPicture img{
+		max-width: 400px;
+		margin-right: 0px;
+		margin-left: auto;
+		float: right; 
+	}
+	#aboutText{
+		width: 48%;
+		margin-right: 0px;
+		margin-left: auto; 
+		padding-top: 30px;
+		float:right;
+	}
+
+	#about1{
+		font-family: "Lemon Milk", bold;
+		font-size: 20px;
+		margin-bottom: 3px;
+	}
+
+	#about2{
+		font-family: "Overpass bold";
+		font-size: 18px;
+		margin-top: 5px;
+		color:#E0A696;
+		max-width: 250px;
+	}
+
+	#about3{
+		font-family: "Overpass reg";
+		font-size: 18px;
+	}
+	#about4{
+		font-family: "Overpass bold";
+		font-size: 18px;
+		color:#E2673D;
+	}
+	#about5{
+		font-family: "Overpass reg";
+		font-size: 18px;
+	}
+
+/*ABOUT*/
+h7{
+	margin-top: 0px;
+	text-align:center;
+	font-family: 'Gothic A1', sans-serif, bold;
 }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+.collapsible img {
+
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.collapsible {
+  background-color: #ED7C63;
+  color: black;
+  color:#fff;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  text-align:center;
+  outline: none;
+  font-size: 15px;
+}
+.bigger{
+  visibility: visible;
+  height: auto;
+}
+  .medium{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .mobile{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+.active, .collapsible:hover {
+  background-color: #DC5D42;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #DC5D42;
+  color:#fff;
+  font-family: 'Gothic A1', sans-serif, bold;
+  line-height: 28px;
+}
+
+@media(max-width:910px) {
+  #block{
+    width: 45%;
+    min-height: 10px;
+  }
+  #navbar a {
+  float: left;
+}
+  #navFormat {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .bigger{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .medium{
+    visibility: visible;
+    height: auto;
+  }
+  .mobile{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+
+}
+@media(max-width:550px) {
+  #block{
+    width: 100%;
+    min-height: 10px;
+  }
+  .bigger{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .medium{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .mobile{
+    visibility: visible;
+    height: auto;
+  }
+
+}
+
+
 
