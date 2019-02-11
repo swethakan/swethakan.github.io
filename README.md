@@ -4,6 +4,7 @@ Swetha Kannan's online Portfolio
 This is a website designed for functionality to show off my work :)
 Feel free to repurpose anything. 
 
-Library Used:
+Library used:
+
 Sortable - https://github.com/SortableJS/Sortable
 Thank you! This library has been so helpful in getting the functionality that I wanted.  
