@@ -6,5 +6,5 @@ Feel free to repurpose anything.
 
 Library used:
 
-Sortable - https://github.com/SortableJS/Sortable
+Mixitup - https://github.com/patrickkunka/mixitup
 Thank you! This library has been so helpful in getting the functionality that I wanted.  
