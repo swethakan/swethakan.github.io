@@ -89,7 +89,7 @@
 
 .BG_color_orange_dia {
   position: relative;
-  height: 500px;
+  min-height: 550px;
   background: white;
   overflow: hidden;
 }
@@ -410,18 +410,27 @@ h7{
   font-size: 15px;
 }
 .bigger{
-  visibility: visible;
-  height: auto;
+    visibility: visible;
+    height: auto;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
 }
   .medium{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
+
   }
   .mobile{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
   }
 
 .active, .collapsible:hover {
@@ -453,17 +462,25 @@ h7{
   }
   .bigger{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
   }
   .medium{
     visibility: visible;
     height: auto;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
   }
   .mobile{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
   }
 
 }
@@ -474,17 +491,25 @@ h7{
   }
   .bigger{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
   }
   .medium{
     visibility: hidden;
+    margin: 0px 0px 0px 0px;
     height: 0;
     width: 0;
+    display: none;
   }
   .mobile{
     visibility: visible;
     height: auto;
+    height: auto;
+    width: auto;
+    margin: auto;
+    display: block;
   }
 
 }
