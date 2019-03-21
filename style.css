@@ -19,6 +19,13 @@
   src: url("fonts/overpass-bold.otf") format("opentype");
 }
 
+h3 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Lemon Milk', regular;
+  font-size: 20px;
+  line-height: 2;
+}
 .slider {
   max-width: 300px;
   height: 200px;
@@ -453,9 +460,10 @@ h7{
     width: 45%;
     min-height: 10px;
   }
-  #navbar a {
-  float: left;
-}
+  #Storyteller{
+    width:0;
+  }
+ 
   #navFormat {
     margin-right: 5px;
     margin-left: 5px;
@@ -485,6 +493,12 @@ h7{
 
 }
 @media(max-width:550px) {
+  #navbar a {
+    font-size: 14px;
+    text-align: center;
+    margin:auto;
+    float:center;
+  }
   #block{
     width: 100%;
     min-height: 10px;
@@ -511,6 +525,28 @@ h7{
     margin: auto;
     display: block;
   }
+ #about4{
+ 	text-align: center;
+ }
+  #AboutPicture img {
+
+    max-width: 100%;
+    margin-bottom: 100px;
+
+    }
+  #imageSet p{
+    font-size: 15px;
+    text-align: center;
+  }
+  .BG_color_orange_dia::before {
+    background: none;
+    }
+  .BG_color_orange_dia::after {
+    background: none;
+    }
+    .BG_color_orange_dia {
+      min-height: 350px;
+    }
 
 }
 
