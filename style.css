@@ -1,22 +1,22 @@
 
 @font-face {
   font-family: "Lemon Milk";
-  src: url("fonts/LemonMilk.otf") format("opentype");
+  src: url("https://swethakan.github.io/Fonts/LemonMilk.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass reg";
-  src: url("fonts/overpass-regular.otf") format("opentype");
+  src: url("https://swethakan.github.io/Fonts/overpass-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass light";
-  src: url("fonts/overpass-light.otf") format("opentype");
+  src: url("https://swethakan.github.io/Fonts/overpass-light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass bold";
-  src: url("fonts/overpass-bold.otf") format("opentype");
+  src: url("https://swethakan.github.io/Fonts/overpass-bold.otf") format("opentype");
 }
 
 h3 {
@@ -28,14 +28,14 @@ h3 {
 }
 .slider {
   max-width: 600px;
-  height: 400px;
+  height: 350px;
   margin: 20px auto;
   position: relative;
 }
 .slide1,.slide2,.slide3,.slide4,.slide5 {
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 .slide1 {
  /* background: url(./images/Spool/spool3.png)no-repeat center;*/
@@ -88,7 +88,7 @@ h3 {
 
 
 .BG_color_orange{
-  background-color: #ED7C63;
+  background-color: #E2673D;
   padding-top: 30px;
   padding-bottom: 0px;
 }
@@ -131,7 +131,7 @@ h1{
 	font-family: 'Gothic A1', sans-serif;
 	text-align: center;
 	font-size: 50px;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 
 h2{
@@ -161,10 +161,13 @@ body{
 		background-color: white;
 		margin-top: none;
 	}
+  h1 {
+    margin-top: 10px;
+}
 	#bottomG{
 		background-color: #81924D;
-		min-height: 200px;
-		margin-top: -20px;
+		min-height: 250px;
+		margin-top: -200px;
 	}
 	#imageSet{
 		margin: auto;
@@ -191,7 +194,7 @@ body{
 /*BOTTOM*/
 
 .mixitup-control-active{
- background-color: #ED7C63!important;
+ background-color: #C45233!important;
 }
 
 #buttonGroup{
@@ -206,7 +209,7 @@ body{
   color: #ffffff;
   border-radius: 25px;
   border:none;
-    background-color: #FC8A72;
+    background-color: #E2673D;
     font-size: 14px;
     min-width: 17%;
     padding: 2px 4px;
@@ -217,7 +220,7 @@ body{
 #buttonGroup button:hover{
   color: #ffffff;
   cursor: pointer;
-  background-color: #DC5D42;
+  background-color: #C45233;
 }
 button:focus, input[type="button"]:focus {
     outline: none;
@@ -407,7 +410,7 @@ h7{
 	margin-right:auto;
 }
 .collapsible {
-  background-color: #ED7C63;
+  background-color: #E2673D;
   color: black;
   color:#fff;
   cursor: pointer;
@@ -442,7 +445,7 @@ h7{
   }
 
 .active, .collapsible:hover {
-  background-color: #DC5D42;
+  background-color: #C45233;
 }
 
 .content {
@@ -450,20 +453,30 @@ h7{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #DC5D42;
+  background-color: #C45233;
   color:#fff;
   font-family: 'Gothic A1', sans-serif, bold;
   line-height: 28px;
 }
 
 @media(max-width:910px) {
+.slider{
+  height:280px;
+}
 
+  .slide1,.slide2,.slide3,.slide4,.slide5 {
+  height: 280px;
+}
   #block{
     width: 70%;
     min-height: 10px;
   }
   #Storyteller{
     width:0;
+    display: none;
+  }
+  #Name {
+    display: none;
   }
  
   #navFormat {
@@ -496,13 +509,16 @@ h7{
 }
 @media(max-width:550px) {
 .slider{
-	height:300px;
+	height:170px;
 }
+  #bottomG{
+    margin-top: -20px;
+  }
 
 	.slide1,.slide2,.slide3,.slide4,.slide5 {
   position: absolute;
   width: 100%;
-  height: 300px;
+  height: 170px;
 }
   #navbar a {
     font-size: 14px;
