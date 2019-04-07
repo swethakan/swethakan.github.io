@@ -1,28 +1,34 @@
 
 @font-face {
   font-family: "Lemon Milk";
-  src: url("thisisswetha.com/Fonts/LemonMilk.otf") format("opentype");
+  src: url("Fonts/LemonMilk.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass reg";
-  src: url("thisisswetha.com/Fonts/overpass-regular.otf") format("opentype");
+  src: url("Fonts/overpass-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass light";
-  src: url("thisisswetha.com/Fonts/overpass-light.otf") format("opentype");
+  src: url("Fonts/overpass-light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Overpass bold";
-  src: url("thisisswetha.com/Fonts/overpass-bold.otf") format("opentype");
+  src: url("Fonts/overpass-bold.otf") format("opentype");
+}
+a{
+	color:#004101;
+	font-weight: bold;
 }
 
 h3 {
   margin: auto;
   text-align: center;
-  font-family: 'Lemon Milk', regular;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 20px;
   line-height: 2;
 }
@@ -179,7 +185,10 @@ body{
 
 	}
 	#imageSet1{
-		font-family: "Lemon Milk", bold;
+		font-family: 'Francois One', sans-serif;
+		font-weight: bold;
+
+  text-transform: uppercase;
 		font-size: 20px;
 		margin-top: 0px;
 		color:white;
@@ -285,7 +294,9 @@ a{
 
 /* Navbar links */
 #navbar a {
-  font-family: 'Lemon Milk', regular;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 20px;
   float: right;
   display: block;
@@ -299,7 +310,9 @@ a{
 	margin-left: 2%;
 }
 #Name {
-  font-family: 'Lemon Milk', regular;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 25px;
   float: left;
   display: inline-block;
@@ -364,7 +377,9 @@ a{
 	}
 
 	#about1{
-		font-family: "Lemon Milk", bold;
+		font-family: 'Francois One', sans-serif;
+		font-weight: bold;
+  text-transform: uppercase;
 		font-size: 20px;
 		margin-bottom: 3px;
 	}
