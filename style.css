@@ -1,27 +1,113 @@
 
-@font-face {
-  font-family: "Lemon Milk";
-  src: url("Fonts/LemonMilk.otf") format("opentype");
+:root {
+  --main-second-color: coral;
 }
 
-@font-face {
-  font-family: "Overpass reg";
-  src: url("Fonts/overpass-regular.otf") format("opentype");
+.top{
+  border-bottom: 1px solid #aeaeae;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+.top .myBox{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.myBox h1{
+  color:black;
+  padding:15px;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.myBox h2{
+  color: grey;
+  padding:17px;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: normal;
+  padding-left: 15px;
+}
+.myBox h2:hover{
+  color:var(--main-second-color);
 }
 
-@font-face {
-  font-family: "Overpass light";
-  src: url("Fonts/overpass-light.otf") format("opentype");
+.myBox p{
+  padding:15px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 12px;
+  font-family: 'Gothic A1', sans-serif, thin;
+  font-size: 14px;
+  line-height: 23px;
+}
+.myBox .text{
+  color:black;
+  margin-left: 170px;
+  background: #ffffff61;
+  border-radius: 5px;
 }
 
-@font-face {
-  font-family: "Overpass bold";
-  src: url("Fonts/overpass-bold.otf") format("opentype");
+.myBox .text .links{
+  display: flex;
 }
-a{
-	color:#004101;
-	font-weight: bold;
+
+.myBox .text .links a{
+/*  flex: 1 1 0;*/
 }
+
+
+#Portfolio h1{
+  text-align: center;
+}
+.project{
+  margin-top: 125px;
+}
+
+#slides{
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 65px;
+}
+video {
+  max-width: 500px;
+/*  background: url(./images/thumbnail.jpg)no-repeat center;*/
+}
+#award{
+  text-align: center;
+  color: grey;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: 'Gothic A1', sans-serif, thin;
+}
+#award img{
+    width: 13px;
+    margin: 0px 8px -3px 6px;
+  }
+
+#Portfolio h2{
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h3 {
   margin: auto;
@@ -43,13 +129,9 @@ h3 {
   width: 100%;
   height: 350px;
 }
-video {
-	background: url(./images/thumbnail.jpg)no-repeat center;
-	background-size: cover!important;
-}
+
 .slide1 {
  /* background: url(./images/Spool/spool3.png)no-repeat center;*/
-      background-size: cover!important;
     animation:fade 8s infinite;
 -webkit-animation:fade 8s infinite;
 
@@ -104,7 +186,7 @@ video {
 }
 
 
-.BG_color_orange_dia {
+/*.BG_color_orange_dia {
   position: relative;
   min-height: 550px;
   background: white;
@@ -127,7 +209,7 @@ video {
   bottom: -120px;
   background: #4E5C29;
   transform: skewY(-15deg);
-}
+}*/
 span {
   position: relative;
   z-index: 2;
@@ -137,12 +219,7 @@ span {
 
 
 
-h1{
-	font-family: 'Gothic A1', sans-serif;
-	text-align: center;
-	font-size: 50px;
-	margin-top: 10px;
-}
+
 
 h2{
 	font-family: 'Gothic A1', sans-serif, thin;
@@ -158,34 +235,37 @@ head{
 body{
 	width:100%;
 	margin: auto;
-  background-color: white;
+/*  background: linear-gradient(0deg, rgb(241, 243, 244) 0%, rgb(241, 243, 244) 100%);
+*/  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 #About{
-	background-color: white;
 	padding-bottom: none;
 	margin-bottom: none;
 }
 /*BOTTOM*/
 	#Bottom{
 		padding-top: none;
-		background-color: white;
 		margin-top: none;
 	}
   h1 {
     margin-top: 10px;
 }
 	#bottomG{
-		background-color: #81924D;
 		min-height: 250px;
 		margin-top: -200px;
 	}
-	#imageSet{
+	.imageSet{
 		margin: auto;
 		text-align: center;
+    margin-bottom: 100px;
 	}
-	#imageSet img{
+	.imageSet img{
 		width:50px;
 		margin: 20px 20px 10px 20px;
+    border-radius: 10px;
+
 
 	}
 	#imageSet1{
@@ -195,19 +275,16 @@ body{
   text-transform: uppercase;
 		font-size: 20px;
 		margin-top: 0px;
-		color:white;
 		letter-spacing: 5px;
 	}
 	#imageSet2{
-		font-family: "Overpass light";
+    font-family: 'Gothic A1', sans-serif, thin;
+    color: grey;
 		font-size: 18px;
-		color:white;
-		letter-spacing: 10px;
 	}
 /*BOTTOM*/
 
 .mixitup-control-active{
- background-color: #C45233!important;
 }
 
 #buttonGroup{
@@ -219,10 +296,9 @@ body{
   text-align: center;
 }
 #buttonGroup button{
-  color: #ffffff;
+  color: black;
   border-radius: 25px;
   border:none;
-    background-color: #E2673D;
     font-size: 14px;
     min-width: 17%;
     padding: 2px 4px;
@@ -289,19 +365,20 @@ float: right;
 
 a{
 	text-decoration: none;
+  color: grey;
 }
 
 #navbar {
   overflow: hidden;
-  background-color: #FFF;
+  background-color:  rgba(235,239,240,1) ;
 }
 
 /* Navbar links */
 #navbar a {
-  font-family: 'Francois One', sans-serif;
-  font-weight: bold;
+  font-family: 'Gothic A1', sans-serif, bold;
+  font-weight: normal;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 14px;
   float: right;
   display: block;
   color: #000;
@@ -314,10 +391,10 @@ a{
 	margin-left: 2%;
 }
 #Name {
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 18px;
   float: left;
   display: inline-block;
   margin-top: 0px;
@@ -331,9 +408,9 @@ a{
 #Storyteller {
   font-family: 'Gothic A1', sans-serif, thin;
   float: left;
-  font-size: 13px;
+  font-size: 11px;
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 5px;
   letter-spacing: 5px;
   margin-bottom: 0px;
   color: #9f9f9f;
@@ -429,7 +506,6 @@ h7{
 	margin-right:auto;
 }
 .collapsible {
-  background-color: #E2673D;
   color: black;
   color:#fff;
   cursor: pointer;
@@ -463,9 +539,7 @@ h7{
     display: none;
   }
 
-.active, .collapsible:hover {
-  background-color: #C45233;
-}
+
 
 .content {
   padding: 0 18px;
