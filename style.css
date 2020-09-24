@@ -55,7 +55,7 @@
 }
 
 .prev img, .next img{
-  width:50px;
+  width:40px;
   margin-top: 50%;
 }
 
@@ -126,6 +126,10 @@
 
 .myBox .text .links a{
 /*  flex: 1 1 0;*/
+}
+
+#Portfolio {
+  margin-bottom: 100px;
 }
 
 
