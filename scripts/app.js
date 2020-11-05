@@ -21,19 +21,44 @@ for(x = 0; x < Object.keys(structure).length; x++){
 				if(structure[x].ID == "beaches")
 					html += "<p id = 'award'><img src = 'images/award.svg'></img><a href = 'https://www.pulitzer.org/finalists/rosanna-xia-swetha-kannan-and-terry-castleman-los-angeles-times'>2020 Pulitzer Prize finalist</a></p>";
 				html += "<video autoplay loop> <source src = 'images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4'>Your browser does not support the video tag</video>";
+				html += "<div class = 'mobile_directions'><p>Swipe left for more</p><img src = 'images/arrow.svg'></img></div>";
 			html += "</div></div>";
 
 			html += "<div>";
-				html += "<div class = 'slide'>";
+				html += "<div class = 'slide goal'>";
 				html += "<h3>"+structure[x].SLIDE1_HED+"</h3>";
 				html += "<p>"+structure[x].SLIDE1_TXT+"</p>";
+				html += "<div class = 'mobile_directions'><p>Swipe</p><img src = 'images/arrow.svg'></img></div>";
 			html += "</div></div>";
 
 			html += "<div>";
 				html += "<div class = 'slide'>";
 				html += "<h3>"+structure[x].SLIDE2_HED+"</h3>";
+				html += structure[x].SLIDE2_IMG+"<p id = 'caption'>"+structure[x].SLIDE2_IMG_caption+"</p>";
 				html += "<p>"+structure[x].SLIDE2_TXT+"</p>";
+				html += "<div class = 'mobile_directions'><p>Swipe</p><img src = 'images/arrow.svg'></img></div>";
 			html += "</div></div>";
+
+
+			html += "<div>";
+				html += "<div class = 'slide'>";
+				html += "<h3>"+structure[x].SLIDE3_HED+"</h3>";
+				html += structure[x].SLIDE3_IMG+"<p id = 'caption'>"+structure[x].SLIDE3_IMG_caption+"</p>";
+				html += "<p>"+structure[x].SLIDE3_TXT+"</p>";
+				html += "<div class = 'mobile_directions'><p>Swipe</p><img src = 'images/arrow.svg'></img></div>";
+			html += "</div></div>";
+
+
+
+			html += "<div>";
+				html += "<div class = 'slide'>";
+				html += "<h3>"+structure[x].SLIDE4_HED+"</h3>";
+				html += structure[x].SLIDE4_IMG+"<p id = 'caption'>"+structure[x].SLIDE4_IMG_caption+"</p>";
+				html += "<p>"+structure[x].SLIDE4_TXT+"</p>";
+				html += "<div class = 'mobile_directions'><p>Swipe</p><img src = 'images/arrow.svg'></img></div>";
+			html += "</div></div>";
+
+
 
 			// html += "<div>";
 			// 	html += "<div class = 'slide'>";

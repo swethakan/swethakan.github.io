@@ -2,7 +2,20 @@
 :root {
   --main-second-color: coral;
 }
+.mobile_only{
+  display: none;
+  height: 0px;
+}
 
+.mobile_directions{
+  height:0px;
+  display: none;
+}
+.fa{
+    font-size: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 
 .swipe {
   overflow: hidden;
@@ -14,7 +27,11 @@
   overflow: hidden;
   position: relative;
 }
-
+.swipe-wrap img {
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
 .swipe-wrap > div {
   float: left;
   width: 100%;
@@ -74,37 +91,73 @@
 
 .top{
   border-bottom: 1px solid #aeaeae;
-  max-width: 600px;
+  max-width: 765px;
+  height: 400px;
   width: 100%;
   margin: auto;
+  background-image: url("images/Pose.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .top .myBox{
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 110px;
   margin-bottom: 50px;
 }
-.myBox h1{
+.mobile_about{
+
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  margin-top: 65px;
+}
+.mobile_only h1{
   color:black;
   padding:15px;
   margin: 0px;
-  padding-bottom: 20px;
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
-.myBox h2{
-  color: grey;
+.mobile_about h2{
+  color: #606060;
   padding:17px;
   margin: 0px;
   padding-bottom: 10px;
   font-size: 13px;
   font-weight: normal;
   padding-left: 15px;
+  text-shadow: 2px 0px 3px white;
+}
+.mobile_about h2:hover{
+  color:var(--main-second-color);
+}
+.mobile_about .links{
+  display: flex;
+}
+.mobile_about .links a{flex: 1;}
+.myBox h1{
+  color:black;
+  padding:15px;
+  font-size: 3em;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+.myBox h2{
+  color: #606060;
+  padding:17px;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 15px;
+  text-shadow: 2px 0px 3px white;
 }
 .myBox h2:hover{
   color:var(--main-second-color);
 }
-
-.myBox p{
+.mobile_about p{
   padding:15px;
   margin: 0px;
   padding-top: 0px;
@@ -112,12 +165,40 @@
   font-family: 'Gothic A1', sans-serif, thin;
   font-size: 14px;
   line-height: 23px;
+  text-align: center;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Gothic A1', sans-serif, thin;
+    line-height: 26px;
+}
+.goal p{
+  text-align: center;
+}
+
+#caption{
+    font-size: 14px;
+    color: #676767;
+    line-height: 21px;
+  }
+.myBox p{
+  padding:15px;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 12px;
+  font-family: 'Gothic A1', sans-serif, thin;
+  font-size: 16px;
+  line-height: 23px;
 }
 .myBox .text{
   color:black;
-  margin-left: 170px;
-  background: #ffffff61;
+  margin-left: 300px;
+  margin-top: 50px;
+  background: #ffffffba;
+  width: 400px;
   border-radius: 5px;
+  text-shadow: 2px 0px 3px white;
 }
 
 .myBox .text .links{
@@ -149,6 +230,7 @@ video {
   display: block;
   margin: 0 auto;
   max-width: 500px;
+      width: 100%;
 /*  background: url(./images/thumbnail.jpg)no-repeat center;*/
 }
 #award{
@@ -161,10 +243,11 @@ video {
 #award img{
     width: 13px;
     margin: 0px 8px -3px 6px;
+    display: inline;
   }
 
 #Portfolio h2{
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
@@ -185,13 +268,14 @@ video {
 
 
 h3 {
-  margin: auto;
-  text-align: center;
-  font-family: 'Francois One', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 20px;
-  line-height: 2;
+    margin: auto;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 2;
+    background: #ebeff0;
 }
 .slider {
   max-width: 600px;
@@ -412,7 +496,7 @@ float: right;
 
 a{
 	text-decoration: none;
-  color: grey;
+  color: #707070;
 }
 
 #navbar {
@@ -460,7 +544,7 @@ a{
   margin-top: 5px;
   letter-spacing: 5px;
   margin-bottom: 0px;
-  color: #9f9f9f;
+  color: #6d6969;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -648,6 +732,67 @@ h7{
 
 }
 @media(max-width:550px) {
+.mobile_only{
+  display: block;
+  height: auto;
+}
+.top{
+  border-bottom: none;
+  margin-top: -97px;
+  border-radius: 400px;
+  background-color: #ebeff0;
+  width: 300px;
+  height: 300px;
+}
+
+.mobile_directions{
+  height:auto;
+  display: block;
+  text-align:right;
+  margin-top: 20px;
+}
+
+.mobile_directions p{
+    text-align: right;
+    color: grey;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: 'Gothic A1', sans-serif, thin;
+    display:inline;
+    padding-right:10px;
+}
+
+.mobile_directions img{
+    width:13px;
+    display: inline;
+    opacity: 35%;
+    position: relative;
+    top: 4px;
+}
+
+  .myBox .text {
+    display: none;
+    width:0;
+    height: 0;
+  }
+.flex{
+  display:contents;
+}
+.prev img, .next img{
+  width: 0px;
+  margin-top: 50%;
+}
+
+.prev, .next{
+  margin-right: 0px;
+      height: 60px;
+}
+
+.slide {
+    width: 95%;
+}
+
 .slider{
 	height:170px;
 }
@@ -717,5 +862,9 @@ h7{
 
 }
 
-
+@media (max-width: 350px){
+  #navbar a {
+    font-size: 12px;
+  }
+}
 
