@@ -19,7 +19,7 @@ for(x = 0; x < Object.keys(structure).length; x++){
 				html += "<div class = 'slide firstSlide' >";
 				html += "<h2>"+structure[x].NAME+"</h2>";
 				html += structure[x].AWARD;
-				html += "<video autoplay loop> <source src = 'images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4'>Your browser does not support the video tag</video>";
+				html += "<video class='video-to-sync' autoplay='' muted='' loop='' playsinline=''><source data-src='images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4' src='images/projects/"+structure[x].ID+"/main.mp4'>Your browser does not support the video tag</video>";
 				html += "<div class = 'mobile_directions'><p>Swipe left for more</p><img src = 'images/arrow.svg'></img></div>";
 			html += "</div></div>";
 
