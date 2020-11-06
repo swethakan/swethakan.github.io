@@ -11,6 +11,10 @@
   height:0px;
   display: none;
 }
+.pulitzer b{
+    background: #fff942;
+    font-weight: 500;
+}
 .fa{
     font-size: 50px;
     padding-right: 30px;
@@ -19,8 +23,9 @@
 
 .swipe {
   overflow: hidden;
- visibility: hidden;
+  visibility: hidden;
   position: relative;
+  height: 750px;
 }
 
 .swipe-wrap {
@@ -28,7 +33,7 @@
   position: relative;
 }
 .swipe-wrap img {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: block;
   }
@@ -117,7 +122,7 @@
   padding:15px;
   margin: 0px;
   font-family: 'Francois One', sans-serif;
-  font-size: 20px;
+  font-size: 27px;
   text-align: center;
 }
 .mobile_about h2{
@@ -125,7 +130,7 @@
   padding:17px;
   margin: 0px;
   padding-bottom: 10px;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: normal;
   padding-left: 15px;
   text-shadow: 2px 0px 3px white;
@@ -163,8 +168,8 @@
   padding-top: 0px;
   padding-bottom: 12px;
   font-family: 'Gothic A1', sans-serif, thin;
-  font-size: 14px;
-  line-height: 23px;
+  font-size: 16px;
+  line-height: 24px;
   text-align: center;
 }
 
@@ -211,6 +216,7 @@ p{
 
 #Portfolio {
   margin-bottom: 100px;
+  margin-top: 90px;
 }
 
 
@@ -218,7 +224,7 @@ p{
   text-align: center;
 }
 .project{
-  margin-top: 125px;
+  margin-top: 0px;
 }
 
 #slides{
@@ -226,16 +232,20 @@ p{
   margin: auto;
   margin-bottom: 65px;
 }
+.firstSlide .mobile_directions{
+    margin-top: 100px;
+}
 video {
   display: block;
   margin: 0 auto;
   max-width: 500px;
       width: 100%;
+  margin-top: 60px;
 /*  background: url(./images/thumbnail.jpg)no-repeat center;*/
 }
 #award{
   text-align: center;
-  color: grey;
+  color: #727272;
   font-size: 13px;
   font-weight: normal;
   font-family: 'Gothic A1', sans-serif, thin;
@@ -410,7 +420,7 @@ body{
 	}
 	#imageSet2{
     font-family: 'Gothic A1', sans-serif, thin;
-    color: grey;
+    color: #727272;
 		font-size: 18px;
 	}
 /*BOTTOM*/
@@ -514,7 +524,7 @@ a{
   display: block;
   color: #000;
   text-align: center;
-  padding: 14px;
+  padding: 18px;
   text-decoration: none;
 }
 #navFormat{
@@ -754,7 +764,7 @@ h7{
 
 .mobile_directions p{
     text-align: right;
-    color: grey;
+    color: #727272;
     margin-top: 20px;
     font-size: 13px;
     font-weight: normal;

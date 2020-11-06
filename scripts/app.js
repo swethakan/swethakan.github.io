@@ -16,10 +16,9 @@ for(x = 0; x < Object.keys(structure).length; x++){
 	html += "<div id='mySwipe"+x+"' class = 'swipe mySwipe'>";
 		html += " <div class='swipe-wrap'>";
 			html += "<div>";
-				html += "<div class = 'slide' >";
+				html += "<div class = 'slide firstSlide' >";
 				html += "<h2>"+structure[x].NAME+"</h2>";
-				if(structure[x].ID == "beaches")
-					html += "<p id = 'award'><img src = 'images/award.svg'></img><a href = 'https://www.pulitzer.org/finalists/rosanna-xia-swetha-kannan-and-terry-castleman-los-angeles-times'>2020 Pulitzer Prize finalist</a></p>";
+				html += structure[x].AWARD;
 				html += "<video autoplay loop> <source src = 'images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4'>Your browser does not support the video tag</video>";
 				html += "<div class = 'mobile_directions'><p>Swipe left for more</p><img src = 'images/arrow.svg'></img></div>";
 			html += "</div></div>";
