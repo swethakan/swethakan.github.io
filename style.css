@@ -14,7 +14,21 @@
 .pulitzer b{
     background: #fff942;
     font-weight: 500;
+    color:black;
 }
+.title_links{
+  color:black;
+}
+.title_links:hover{
+  color:#cf4516;
+}
+.title_links:after{
+  content: url('images/link.svg');
+  width: 15px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
 .fa{
     font-size: 50px;
     padding-right: 30px;
@@ -43,6 +57,25 @@
   position: relative;
 }
 
+#responsibility h5{
+  font-family: 'Gothic A1', sans-serif, bold;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#responsibility p{
+  margin-top:5px; 
+}
+
+#responsibility span{
+  background: #ebeff0;
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 8px;
+  border-radius: 5px;
+  color: rgb(52 98 19);
+  line-height: 35px;
+}
 
 .slide{
     max-width: 650px;
@@ -121,7 +154,7 @@
   color:black;
   padding:15px;
   margin: 0px;
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Bree Serif', serif;
   font-size: 27px;
   text-align: center;
 }
@@ -148,6 +181,7 @@
   font-size: 3em;
   margin: 0px;
   padding-bottom: 20px;
+  font-family: 'Bree Serif', serif;
 }
 .myBox h2{
   color: #606060;
@@ -280,9 +314,8 @@ video {
 h3 {
     margin: auto;
     text-align: center;
-    font-family: 'Francois One', sans-serif;
+    font-family: 'Bree Serif', serif;
     font-weight: bold;
-    text-transform: uppercase;
     font-size: 30px;
     line-height: 2;
     background: #ebeff0;
@@ -410,7 +443,7 @@ body{
 
 	}
 	#imageSet1{
-		font-family: 'Francois One', sans-serif;
+		font-family: 'Bree Serif', serif;
 		font-weight: bold;
 
   text-transform: uppercase;
@@ -599,7 +632,7 @@ a{
 	}
 
 	#about1{
-		font-family: 'Francois One', sans-serif;
+		font-family: 'Bree Serif', serif;
 		font-weight: bold;
   text-transform: uppercase;
 		font-size: 20px;
