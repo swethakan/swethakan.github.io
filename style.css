@@ -57,7 +57,7 @@
   position: relative;
 }
 
-#responsibility h5{
+#responsibility h4{
   font-family: 'Gothic A1', sans-serif, bold;
   text-align: center;
   font-size: 16px;
@@ -829,7 +829,7 @@ h7{
 
 .prev, .next{
   margin-right: 0px;
-      height: 60px;
+      height: 0px;
 }
 
 .slide {
