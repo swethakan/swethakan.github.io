@@ -314,14 +314,18 @@ video {
 
 
 h3 {
-    margin: auto;
-    text-align: center;
-    font-family: 'Bree Serif', serif;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 2;
-    background: #ebeff0;
+  margin: auto;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif, thin;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 2;
+  text-transform: uppercase;
+  background: #ececec;
+  color: #686868;
 }
+
 .slider {
   max-width: 600px;
   height: 350px;

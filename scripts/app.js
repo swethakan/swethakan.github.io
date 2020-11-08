@@ -7,6 +7,9 @@ var html = "";
 
 //some stuff happens
 for(x = 0; x < Object.keys(structure).length; x++){
+	html += "<h2><a class = 'title_links' title = 'this link will take you to another website to view the project' href = '"+structure[x].LINK+"'>"+structure[x].NAME+"</a></h2>";
+				
+
 
 	html += "<div data-aos='fade-up' class = 'project flex'>";
 
@@ -17,7 +20,6 @@ for(x = 0; x < Object.keys(structure).length; x++){
 		html += " <div class='swipe-wrap'>";
 			html += "<div>";
 				html += "<div class = 'slide firstSlide' >";
-				html += "<h2><a class = 'title_links' title = 'this link will take you to another website to view the project' href = '"+structure[x].LINK+"'>"+structure[x].NAME+"</a></h2>";
 				html += structure[x].AWARD;
 				html += "<video class='video-to-sync' autoplay='' muted='' loop='' playsinline=''><source data-src='images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4' src='images/projects/"+structure[x].ID+"/main.mp4'>Your browser does not support the video tag</video>";
 				html += "<div class = 'mobile_directions'><p>Swipe left for more</p><img alt = 'Arrow image' src = 'images/arrow.svg'></img></div>";
