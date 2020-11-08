@@ -6,7 +6,9 @@
   display: none;
   height: 0px;
 }
-
+#Social b{
+  display: none;
+}
 .mobile_directions{
   height:0px;
   display: none;
@@ -813,7 +815,6 @@ h7{
     position: relative;
     top: 4px;
 }
-
   .myBox .text {
     display: none;
     width:0;

@@ -16,7 +16,7 @@ for(x = 0; x < Object.keys(structure).length; x++){
 	html += "<div id='mySwipe"+x+"' class = 'swipe mySwipe'>";
 		html += " <div class='swipe-wrap'>";
 			html += "<div>";
-				html += "<div class = 'slide firstSlide' href = '"+structure[x].LINK+"'>";
+				html += "<div class = 'slide firstSlide' >";
 				html += "<h2><a class = 'title_links' title = 'this link will take you to another website to view the project' href = '"+structure[x].LINK+"'>"+structure[x].NAME+"</a></h2>";
 				html += structure[x].AWARD;
 				html += "<video class='video-to-sync' autoplay='' muted='' loop='' playsinline=''><source data-src='images/projects/"+structure[x].ID+"/main.mp4' type='video/mp4' src='images/projects/"+structure[x].ID+"/main.mp4'>Your browser does not support the video tag</video>";
