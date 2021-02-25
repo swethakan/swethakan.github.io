@@ -285,6 +285,8 @@ video {
   font-size: 13px;
   font-weight: normal;
   font-family: 'Gothic A1', sans-serif, thin;
+  margin-top: 0px;
+  margin-bottom: 4px;
 }
 #award img{
     width: 13px;

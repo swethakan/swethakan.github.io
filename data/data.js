@@ -19,10 +19,10 @@ var structure = ([
     "SLIDE4_IMG": "<img alt = 'Screenshot shows the topper of our game.' src = 'images/projects/beaches/image4.jpg'>",
     "SLIDE4_IMG_caption": "Screenshot shows the topper of our game.",
     "SLIDE4_TXT": "The page published to great success. It published alongside a written piece by Rosanna Xia and became monumental in changing the way californians understood our beaches. It was met with steady and increasing traffic for a week, a time frame almost unheard of in a fast-paced news cycle, and was one of our top viewed project pages of the year. Beyond the initial publishing week, the game has been used by professionals to teach students about the complexities of our beaches and to train local city officials before they began their duties assisting the development of beachside neighborhoods. In 2019, the project became a Pulitzer Prize finalist for environmental reporting.",
-    "AWARD": "<p id = 'award' class = 'pulitzer'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.pulitzer.org/finalists/rosanna-xia-swetha-kannan-and-terry-castleman-los-angeles-times' alt = 'This link will take you to the 2019 Pulitzer Prize page' >2019 <b>Pulitzer Prize</b> finalist</a></p>"
+    "AWARD": "<p id = 'award' class = 'pulitzer'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.pulitzer.org/finalists/rosanna-xia-swetha-kannan-and-terry-castleman-los-angeles-times' alt = 'This link will take you to the 2019 Pulitzer Prize page' >2019 <b>Pulitzer Prize</b> finalist</a></p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2020 Online Journalism Award, Finalist</p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2019 California Online Journalism Awards, 3rd place in Public Service Journalism</p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2019 California Online Journalism Awards, 2nd place in In-depth reporting</p>"
   },
   {
-    "ORDER": 2,
+    "ORDER": 3,
     "ID": "weinstein",
     "NAME": "Those accused in the outset of the Weinstein Scandal",
     "LINK": "https://www.latimes.com/projects/la-na-sexual-harassment-fallout/",
@@ -44,7 +44,7 @@ var structure = ([
     "AWARD": ""
   },
   {
-    "ORDER": 3,
+    "ORDER": 4,
     "ID": "coronavirus",
     "NAME": "Tracking the Coronavirus across California",
     "LINK": "https://www.latimes.com/projects/california-coronavirus-cases-tracking-outbreak/",
@@ -66,7 +66,7 @@ var structure = ([
     "AWARD": ""
   },
   {
-    "ORDER": 4,
+    "ORDER": 5,
     "ID": "sw_women",
     "NAME": "Women still speak less in star wars",
     "LINK": "https://www.latimes.com/projects/star-wars-movies-female-character-analysis/",
@@ -85,10 +85,10 @@ var structure = ([
     "SLIDE4_IMG": "<img alt = 'The topper of our page' src = 'images/projects/sw_women/image4.jpg'>",
     "SLIDE4_IMG_caption": "The topper of our page",
     "SLIDE4_TXT": "The story published to meet a divisive audience of fans who either liked or disliked the piece. Funnily enough, our data was able to predict the total amount of words Rey speaks in the final movie of her trilogy - and no, she was not able to catch up to her two predecessors. If you want to see the data yourself, <a href= 'https://github.com/datadesk/star-wars-analysis' alt = 'This link will take you to a github page createdby the Los Angeles Times datadesk that holds all the data we collected for this project.'>our work is public on github.</a>",
-    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2020/02/10/2019-results/' alt = 'This link will take you to the 2019 SND awards page' >2019 Award of Excellence at Society of News Design(SND) awards</a></p>"
+    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2020/02/10/2019-results/' alt = 'This link will take you to the 2019 SND awards page' >2019 Award of Excellence at Society of News Design(SND) awards</a></p> <p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://lapressclub.org/wp-content/uploads/2021/02/2020-NAEJ-Finalists-02142021-a.pdf' alt = 'This link will take you to the 2020 National Arts and Entertainment Journalism awards page' >2020 National Arts and Entertainment Journalism, Award for Graphics</a></p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://lapressclub.org/wp-content/uploads/2021/02/2020-NAEJ-Finalists-02142021-a.pdf' alt = 'This link will take you to the 2020 National Arts and Entertainment Journalism awards page' >2020 National Arts and Entertainment Journalism, Award for Commentary Analysis/Trend in Film</a></p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://lapressclub.org/wp-content/uploads/2021/02/2020-NAEJ-Finalists-02142021-a.pdf' alt = 'This link will take you to the 2020 National Arts and Entertainment Journalism awards page' >2020 National Arts and Entertainment Journalism, Award for Commentary Diversity/Gender</a></p>"
   },
   {
-    "ORDER": 5,
+    "ORDER": 6,
     "ID": "blm_protests",
     "NAME": "Under lax protocol, LAPD responded to protests with aggressive force",
     "LINK": "https://www.latimes.com/projects/was-lapd-force-appropriate-george-floyd-protests/",
@@ -107,7 +107,7 @@ var structure = ([
     "SLIDE4_IMG": "<img alt = 'The topper of our page' src = 'images/projects/blm_protests/image4.jpg'>",
     "SLIDE4_IMG_caption": "The topper of our page",
     "SLIDE4_TXT": "The most notable achievement of this page was that the LAPD tried to address some of these concerns after repeatedly dodging our calls for an interview or quote. The page itself is a great reflection on the severity of police brutality in Los Angeles at this time.",
-    "AWARD": ""
+    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2020/02/10/2020-results/' alt = 'This link will take you to the 2020 SND awards page' >2020 Award of Excellence at Society of News Design(SND) awards</a></p>"
   },
   {
     "ORDER": 6,
@@ -132,7 +132,7 @@ var structure = ([
     "AWARD": ""
   },
   {
-    "ORDER": 6,
+    "ORDER": 7,
     "ID": "2020_wildfires",
     "NAME": "The worst fire season ever. Again.",
     "LINK": "https://www.latimes.com/projects/california-fires-damage-climate-change-analysis/",
@@ -154,7 +154,7 @@ var structure = ([
     "AWARD": ""
   },
   {
-    "ORDER": 7,
+    "ORDER": 8,
     "ID": "snl_anim",
     "NAME": "Sasheer Zamata shares...",
     "LINK": "https://vimeo.com/213777263",
@@ -166,8 +166,8 @@ var structure = ([
     "SLIDE2_IMG_caption": "Image shows Sasheer Zamata on stage, recounting her childhood dream.",
     "SLIDE2_TXT": "The animation was storyboarded by Arthur Jones who also did the blocking for me. It was my responsibility to do the inbetweening of the animations and construct some of the assets.",
     "SLIDE3_HED": "Assets",
-    "SLIDE3_IMG": "<img alt = 'Image shows Sasheer Zamata on stage, recounting her childhood dream.' src = 'images/projects/snl_anim/image3.jpg'>",
-    "SLIDE3_IMG_caption": "Image shows Sasheer Zamata on stage, recounting her childhood dream.",
+    "SLIDE3_IMG": "<img alt = 'A frame from our animation.' src = 'images/projects/snl_anim/image3.jpg'>",
+    "SLIDE3_IMG_caption": "A frame from our animation.",
     "SLIDE3_TXT": "Arthur Jones constructed most of the initial assets for the procustion. If we needed extra hands, arm positions, etc. I took care of constructing those.",
     "SLIDE4_HED": "Final",
     "SLIDE4_IMG": "<iframe title='Sasheer Zamata video' src='https://player.vimeo.com/video/213777263' width='100%' height='300' frameborder='0' allow='autoplay; fullscreen' allowfullscreen></iframe>\n<p><a href='https://vimeo.com/213777263'>Sasheer Zamata &#039;s &quot;Pizza Mind&quot; Excerpt</a> from <a href='https://vimeo.com/futuresmells'>Arthur Jones Studio</a> on <a href='https://vimeo.com'>Vimeo</a>.</p>",
@@ -176,7 +176,7 @@ var structure = ([
     "AWARD": ""
   },
   {
-    "ORDER": 8,
+    "ORDER": 9,
     "ID": "brady_list",
     "NAME": "You've been unfairly accused by a Cop. Can you win against the system?",
     "LINK": "https://www.latimes.com/projects/la-me-brady-list-secrecy/",
@@ -198,7 +198,7 @@ var structure = ([
     "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2019/02/14/2018-results/' alt = 'This link will take you to the 2018 SND awards page'>2018 Bronze medal at Society of News Design(SND) awards</a></p>"
   },
   {
-    "ORDER": 9,
+    "ORDER": 10,
     "ID": "stan_lee",
     "NAME": "An illustrated tribute to Stan Lee",
     "LINK": "https://www.latimes.com/projects/la_et_stan_lee_timeline_obituary/",
@@ -217,10 +217,10 @@ var structure = ([
     "SLIDE4_IMG": "<img alt = 'The topper of our page' src = 'images/projects/stan_lee/image4.jpg'>",
     "SLIDE4_IMG_caption": "The topper of our page",
     "SLIDE4_TXT": "This page was published the day Stan Lee died on November 12, 2018. Although it was competing with other breaking stories at the time -- California was going through another grueling fire season -- the page attracted good traffic and was particularly popular with our subscribers. I am particularly proud of the full-page print spread we were able to publish to honor the death of such a well-known cultural figure.",
-    "AWARD": ""
+    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2018 California Online Journalism Awards, 4th place in Illustration</p>"
   },
   {
-    "ORDER": 10,
+    "ORDER": 11,
     "ID": "pop_dog",
     "NAME": "2017's most popular dog breeds of L.A.",
     "LINK": "https://www.latimes.com/projects/la-me-most-popular-dog-breeds-los-angeles/",
