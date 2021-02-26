@@ -22,6 +22,28 @@ var structure = ([
     "AWARD": "<p id = 'award' class = 'pulitzer'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.pulitzer.org/finalists/rosanna-xia-swetha-kannan-and-terry-castleman-los-angeles-times' alt = 'This link will take you to the 2019 Pulitzer Prize page' >2019 <b>Pulitzer Prize</b> finalist</a></p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2020 Online Journalism Award, Finalist</p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2019 California Online Journalism Awards, 3rd place in Public Service Journalism</p><p id = 'award'><img alt='award icon' src = 'images/award.svg'></img>2019 California Online Journalism Awards, 2nd place in In-depth reporting</p>"
   },
   {
+    "ORDER": 2,
+    "ID": "101_list",
+    "NAME": "101 Restaurants, dishes, people and ideas",
+    "LINK": "https://www.latimes.com/projects/101-best-la-restaurants-2020/",
+    "SLIDE1_HED": "The Goal",
+    "SLIDE1_TXT": "The Los Angeles Times releases a 101 Best Restarurants list every year yet 2020 still managed to be a list like no other. The restaaruant industry had suffered a massive blow in 2020 thanks to the Coronavirus pandemic that shut down restaurant dining for a majority of the year. Especially in California where the spread of the virus become the largest in the nation. Therefore, the tone of the year's list was changed by our food critics into one of resilience and hope. The list expanded to include not just restaurants but also people and organizations who helped provide food for the homeless, create avenues for social change, etc. Instead of a ranking, we now presented a celebration of 2020's food industry in Los Angeles.",
+    "SLIDE1_RESP": "<div id = 'responsibility'><h4>My responsibilities:</h4><p><span>Web Design Lead</span><span>Adobe XD mocks</span><span>Design coordination with Print</span><span>Web Development Lead</span><span>Python</span><span>Javascript</span></p></div>",
+    "SLIDE2_HED": "Challenges",
+    "SLIDE2_IMG": "<img alt = 'An image of one of our Adobe XD mocks for this page.' src = 'images/projects/101_list/image2.jpg'>",
+    "SLIDE2_IMG_caption": "An image of one of our Adobe XD mocks for this page.",
+    "SLIDE2_TXT": "I was the web design lead on this project. This included making a style guide, alongside the print design lead, that was distributed to the marketing, social, events, and promotion teams at the Times. The design had to go through reporters and editors to make sure it was cohesive with the vision of the year which was different from past years: We wanted to keep the playfulness of previous 101 lists but also incorporate a sense celebration to honor the resiliance of the food industry during the coronavirus pandemic. Ultimately, I presenting three design directions which I mocked up in Adobe XD. A version based of the design language of <a href = 'https://xd.adobe.com/view/a4d8e346-bd84-41e4-b2a3-8e138abb06ac-f18b/'>food truck menus</a>, one <a href = 'https://xd.adobe.com/view/09a3b2f5-95ca-4aa7-9db5-a6da9f970317-5cf0/' >minimalistic version</a> with fun illustrations and finally a black, <a href = 'https://xd.adobe.com/view/826542a8-fdde-45f9-af66-feddb8b9925c-d736/'>futuristic look</a> with neon colors and vector illustrations.",
+    "SLIDE3_HED": "Development",
+    "SLIDE3_IMG": "<img alt = 'Screenshot shows the spreadsheet that was originally used in this project.' src = 'images/projects/101_list/image3.jpg'>",
+    "SLIDE3_IMG_caption": "Screenshot shows the spreadsheet that was originally used in this project.",
+    "SLIDE3_TXT": "Ultimately, we choose to proceed with our minimalistic design that featured included sketchy illustrations. I handled the development of a custom webpage on the Los Angeles Times site through our internal framework system. I placed everything from the list into a massive spreadsheet, used a jupyter notebook to refine the list using python to reformat addresses, condense locations, etc. Using this, I was able to then automatically generate each entry in our list by interating through this spreadsheet using Django. Each section also featured a map which was automatically generated using Mapbox's API.",
+    "SLIDE4_HED": "Publishing",
+    "SLIDE4_IMG": "<img alt = 'Los Angeles Times' 2020' 101 list logo' src = 'images/projects/101_list/image4.jpg'>",
+    "SLIDE4_IMG_caption": "Los Angeles Times' 2020' 101 list logo",
+    "SLIDE4_TXT": "The page published to great success. It lead our coverage for a few days and also impressed returning fans. The list is still utilized and has also won recognition in the Society of News Design's 2020 awards.",
+    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2020/02/10/2020-results/' alt = 'This link will take you to the 2020 SND awards page' >2020 Award of Excellence at Society of News Design(SND) awards</a></p>"
+  },
+  {
     "ORDER": 3,
     "ID": "weinstein",
     "NAME": "Those accused in the outset of the Weinstein Scandal",
