@@ -41,7 +41,7 @@
   overflow: hidden;
   visibility: hidden;
   position: relative;
-  height: 750px;
+/*  height: 750px;*/
 }
 
 .swipe-wrap {
@@ -125,9 +125,10 @@
   margin-left: 70px;
 }
 .flex .main{
-    flex: 0 1 850px;
+    flex: 0 1 750px;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    min-height: 750px
 }
 
 .top{
