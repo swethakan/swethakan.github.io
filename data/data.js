@@ -151,7 +151,7 @@ var structure = ([
     "SLIDE4_IMG": "<img alt = 'The topper of our page' src = 'images/projects/virtual_prom/image4.jpg'>",
     "SLIDE4_IMG_caption": "The topper of our page",
     "SLIDE4_TXT": "The game met with decent success. It was published alongside another written piece about Prom and was circulated among high schoolers in the Los Angeles area. Personally, my team and I walked away with a larger skillset which we employed on other subsequent projects.",
-    "AWARD": ""
+    "AWARD": "<p id = 'award'><img alt='award icon' src = 'images/award.svg'></img><a href = 'https://www.snd.org/bodd/2020/02/10/2020-results/' alt = 'This link will take you to the 2020 SND awards page' >2020 Award of Excellence at Society of News Design(SND) awards</a></p>"
   },
   {
     "ORDER": 7,
