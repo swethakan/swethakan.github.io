@@ -554,28 +554,29 @@ a{
 
 #navbar {
   overflow: hidden;
-  background-color:  rgba(235,239,240,1) ;
+  background-color:  Black ;
+  color: white;
 }
 
 /* Navbar links */
 #navbar a {
-  font-family: 'Gothic A1', sans-serif, bold;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 14px;
-  float: right;
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 18px;
-  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    float: right;
+    display: block;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
 }
 #navFormat{
 	margin-right: 2%;
 	margin-left: 2%;
 }
 #Name {
-  font-family: 'Gothic A1', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 18px;
@@ -583,24 +584,22 @@ a{
   display: inline-block;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #000;
+  color: white;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   letter-spacing: 3px;
 }
 #Storyteller {
-  font-family: 'Gothic A1', sans-serif, thin;
+  font-family: 'Open Sans', sans-serif;
   float: left;
-  font-size: 11px;
+  font-size: 12px;
   display: inline-block;
-  margin-top: 5px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   margin-bottom: 0px;
-  color: #6d6969;
+  color: white;
   text-align: center;
   padding: 14px;
-  text-decoration: none;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
