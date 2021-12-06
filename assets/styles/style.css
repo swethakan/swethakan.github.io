@@ -10,11 +10,21 @@ html {
   }
 }
 
+ul.numbered {
+  list-style-type: decimal;
+}
+ul.numbered li {
+  padding-bottom: 10px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+body p {
+  line-height: 1.55;
 }
 body .topper {
   height: 100vh;
@@ -309,6 +319,10 @@ body .image-caption {
   }
 }
 
+.flex.add-top {
+  margin-top: 30px;
+}
+
 .topper {
   height: 100vh;
   width: 100%;
@@ -333,6 +347,10 @@ body .image-caption {
   margin: auto;
   margin-top: 80px;
   margin-bottom: 100px;
+}
+.high-level-summary li span {
+  font-style: italic;
+  font-size: 12px;
 }
 .high-level-summary h2 {
   text-align: center;
@@ -901,6 +919,154 @@ body .image-caption {
 .coronavirus .darkBG {
   background-color: #08445C;
   color: #feffff;
+}
+
+.casper a {
+  color: #4066c0;
+}
+.casper .contain h2::before {
+  background-color: #5382EC;
+}
+.casper .goals .desktop-only {
+  display: flex !important;
+}
+@media only screen and (max-width: 700px) {
+  .casper .goals .desktop-only {
+    display: none !important;
+  }
+}
+.casper .goals .inner {
+  width: 23%;
+  padding: 0px 1%;
+}
+.casper .goals .inner img {
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .casper .goals .inner {
+    width: 100%;
+    padding: 0px 0%;
+  }
+  .casper .goals .inner .mobile-only {
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+.casper .goals .image-caption {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #a1c4ed;
+}
+.casper .topper {
+  background-color: #0f172a;
+  color: white;
+}
+.casper .topper .flex {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 35vh;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  .casper .topper .flex {
+    margin-top: 15%;
+    padding-top: 10vh;
+  }
+}
+.casper .topper .inner.image {
+  width: 300px;
+}
+.casper .topper .inner {
+  width: 45%;
+  vertical-align: center;
+}
+@media only screen and (max-width: 700px) {
+  .casper .topper .inner {
+    width: 95%;
+  }
+}
+.casper .topper .inner h1 {
+  width: 400px;
+  padding: 20px 0px;
+  margin: auto;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 700px) {
+  .casper .topper .inner h1 {
+    font-size: 63px;
+    border: none;
+    text-align: center;
+  }
+}
+.casper .topper .inner h1 span {
+  font-weight: normal;
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 0px;
+}
+.casper .topper img {
+  width: 100%;
+}
+.casper .high-level-summary {
+  max-width: 700px;
+}
+@media only screen and (max-width: 700px) {
+  .casper .high-level-summary {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.casper .high-level-summary .inner {
+  width: 50%;
+}
+@media only screen and (max-width: 700px) {
+  .casper .high-level-summary .inner {
+    width: 100%;
+  }
+}
+.casper .high-level-summary img {
+  max-width: 350px;
+  display: block;
+  margin-left: auto;
+}
+.casper .high-level-summary ul {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .casper .high-level-summary ul {
+    margin-left: 0px;
+  }
+}
+.casper .high-level-summary li ul {
+  list-style-type: circle;
+  margin-left: 0px;
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+.casper .high-level-summary .summary {
+  padding-top: 50px;
+}
+.casper .icon {
+  width: 12px;
+  height: 12px;
+  padding: 0px 5px;
+}
+.casper .the-deets h2 {
+  color: #86a6f0;
+}
+.casper .small-img {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+.casper .darkBG {
+  background-color: #0f172a;
+  color: #ffffff;
 }
 
 .main {
