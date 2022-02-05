@@ -176,9 +176,30 @@ body #portfolio .template-Project {
   margin-bottom: 50px;
   background-color: white;
 }
+body #portfolio .template-Project p.award {
+  display: inline-block;
+}
+body #portfolio .template-Project .pulitzer {
+  position: absolute;
+  background: white;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+body #portfolio .template-Project .text {
+  display: inline-block;
+  width: 256px;
+}
 body #portfolio .template-Project img {
   width: 100%;
   box-shadow: 2px 3px 15px #d3d1d1;
+}
+body #portfolio .template-Project img.award {
+  width: 20px;
+  box-shadow: none;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 body #portfolio .template-Project p {
   color: grey;
@@ -571,6 +592,9 @@ body .image-caption {
 }
 .ocean_game .darkBG {
   background-color: #202830;
+  color: white;
+}
+.ocean_game .darkBG a {
   color: white;
 }
 .ocean_game .the-deets p {

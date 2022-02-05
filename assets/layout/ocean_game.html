@@ -80,12 +80,34 @@
 						<div class = "image inner">
 							<img alt = "Post it notes stuck onto a wall which we used to brainstorm" src = "../images/projects/beaches/image2.jpg">
 							<p class = "image-caption">Diagrams show initial mockups of how game could progress (Swetha Kannan, Rosanna Xia / Los Angeles Times)</p>
+
+							<p class = "first">Rosanna Xia, a reporter at the Los Angeles Times, was introduced to this problem space through her beat as an environmental reporter. Rosanna conducted <b>interviews</b> a variety of environmentalists, beach-goers, homeowners who had beachside properties and more. Together, her and Editor, Ben Muessig, created a <b>concept map</b> about the current coastal situation in California.</p>
+
+
 						</div>
 						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">Rosanna Xia, a reporter at the Los Angeles Times, was introduced to this problem space through her beat as an environmental reporter. Rosanna interviewed a variety of environmentalists, beach-goers, homeowners who had beachside properties and more. </p>
-							<p>One goal we had in this project was to intorduce different sides of the argument agains and for deserting our coastline. To figure out how to best do this, we held various brainstorming sessions to write down our thoughts and synthesize solutions.</p>
-							<p>Terry Castleman and I also assessed the state of newsgames at the time. We did a light market analysis of games and picked out what worked and what did not from each game.</p>
-							<p>In the end, we were able to make a tree diagram of how we expected our game to progress. Rosanna started the process with the Editor of the story, Ben Muessig, by using sticky notes to map out the process. Afterwards, we made a more sophisticated mock-up using Twine.js.</p>
+							<h3>Takeaways</h3>
+							<ul class = "numbered">
+								<li>There are three main solutions to combat rising sea levels: adding sand to beaches, creating rock walls, or moving coastal communities inland.</li>
+								<li>There are multiple stakeholders in this argument including beach-goers, scietists, homeowners, and more.</li>
+								<li>Often times, money and other incentives are not enough to covince coastal communities to relocate.</li>
+							</ul>
+						</div>
+
+					</div>
+					<div data-aos="fade-right" class = "flex overflow-hide">
+						<div class = "image inner">
+							<img alt = "screenshot of the Financial Times' Uber story which took the form of a game" src = "../images/projects/beaches/image2-2.jpg">
+							<p class = "image-caption">The Uber Game by the Financial Times was a huge inspiration for us.</p>
+							<p>Meanwhile, Terry Castleman and I also assessed the state of newsgames at the time by doing <b>market research</b> into the existing landscape. We found what worked and what did not and also observed what tools other newsrooms used to envoke empathy.</p>
+						</div>
+						<div data-aos="fade-left" class = "text inner overflow-hide">
+							<h3>Takeaways</h3>
+							<ul class = "numbered">
+								<li>Many successful newsgames that function similar to text adventures.</li>
+								<li>Some newsgames turn money, effort, etc. into a points system.</li>
+								<li>Newsgames with many 'tutorials' often lose audience interest.</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -106,18 +128,27 @@
 			<!-- Here is where we explain process -->
 			<div class = "the-process">
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">The process</h2>
+					<h2 data-aos="fade-right" class = "overflow-hide">Ideation</h2>
 					<div class = "flex">
 						<div data-aos="fade-right" class = "image inner overflow-hide">
 							<img alt = "Mid-fi mockup shows a beachside view with a city at the edge of the water" src = "../images/projects/beaches/image3.jpg">
 							<p class = "image-caption">Mid-fi mockup (Swetha Kannan / Los Angeles Times)</p>
+							<p class = "first">After exploring the problem space, we made several mockups to present to stakeholders in the newsroom. </p>
+							<p>Some of the biggest elements we added as a result of research was the characters we included that were meant to visualize the stakeholders in this problem space. We also added a buyback system where users would be able to offer financial incentive to move coastal communities. We tried to model these scenerios after real ones we encountered in our interviews.</p>
+
+							<p>We <b>playtested the game</b>, using a text-only version created using twine.js, with several users and, once we were happy with the text, we began transferring the game to our in-house CMS system.</p>
+
 						</div>
 						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">After exploring the problem space, we made several mockups to present to stakeholders in the newsroom. I initially started with a city-scape in a mockup which was wuickly shot down by experts - we instead changed the final landscape to flat land with roads and villas, more typical of the Southern California coast.</p>
-							<p>We playtested the game with several users and, once we were happy with the text, we began transferring the game to our in-house CMS system. To do this, I used Cinema 4D to make all the 3D elements you see in the game and then used After Effects to create all the animations.</p>
-							<p>We exported these animations into Javascript animations by using the the Bodymovin library.</p>
-							<p>Some of the biggest elements of the game that we continuously iterated upon was the characters we included that were meant to visualize the stakeholders in the problem space. These characters would occasionally offer commentry on what the user was doing.</p>
-							<p>Another big element was the buyback system where users would be able to offer financial incentive. We tried to model these scenerios after real ones we encountered in our interviews to make it as realistic as possible.</p>
+							<h3>Takeaways</h3>
+							<ul class = "numbered">
+								<li>The mockup screens did not look like a California coastline. We replaced this with a highway and 1-story houses.</li>
+								<li>We had 'characters' in the game but noone interacted with them. We had the characters speak automatically without user input and without disrupting the flow of the game.</li>
+								<li>Users got too frustrated trying to move coastal home-owners and thus did not develop empathy. We made speech bubbles for homeowners and assigned them children, families, etc. to make these characters fleshed out.</li>
+							</ul>
+							<h3>Technical Implementation</h3>
+							<p>I used Cinema 4D to make all the 3D elements you see in the game and then used After Effects to create all the animations. Afterwards, I exported these animations used in the game into Javascript by using the the Bodymovin library.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -136,6 +167,7 @@
 						<div data-aos="fade-left" class = "text inner overflow-hide">
 							<p class = "first">The story published alongside it’s written version on July 7th, 2019.</p>
 							<p>The page published to great success. It was met with steady and increasing traffic for a week, a time frame almost unheard of in a fast-paced news cycle, and was one of our top viewed project pages of the year. Beyond the initial publishing week, the game has been used by professionals to teach students about the complexities of our beaches and to train local city officials before they began their duties assisting the development of beachside neighborhoods.</p>
+							<p><a href = "https://www.latimes.com/projects/la-me-climate-change-ocean-game/">See the page on the Los Angeles Times' Website >></a></p>
 						</div>
 					</div>
 				</div>
