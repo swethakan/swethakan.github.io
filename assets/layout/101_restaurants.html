@@ -199,6 +199,7 @@
 					<h2 data-aos="fade-right" class = "overflow-hide">Understanding the problem Space</h2>
 					<div data-aos="fade-right" class = "flex overflow-hide">
 						<div class = "image inner">
+							<h3 >Stakeholder interviews</h3>
 							<img alt = "Server wearing a mask and faceshield as they serve customers outside in the streets of Los Angeles." src = "../images/projects/101_list/image1.png">
 							<p class = "image-caption">Above, a server at La Boheme in West Hollywood in July. (Jason Armond / Los Angeles Times)</p>
 
@@ -208,11 +209,12 @@
 							<p class = "image-caption">Affinity diagrams show the relationship in the service industry during the pandemic (Swetha Kannan / Los Angeles Times)</p> -->
 						</div>
 						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<h3 class = "takeaways">Takeaways</h3>
+							<h3 >Takeaways</h3>
 							<ul class = "numbered">
-								<li>The industry strongled monumentally with the transition to lockdown. Many restaurants closed those who survived were still recovering.</li>
-								<li>Ranking restaurants as we usually do for this list would be insensitive to the state of the food industry.</li>
-								<li>People and organizations rose up to help during the pandemic. Their contributions helped feed Los Angeles during lockdown.</li>
+								<li>The industry strongled monumentally with the transition to lockdown. Many restaurants closed those who survived were still recovering.<br><br><b class = "result">Result: </b>The list was no longer presented as a rank from best to worst as an acknowledgment to how the industry suffered. </li>
+								<li>The celebratory tone of our usual list and food section was insensitive to the current food industry<br><br><b class = "result">Result:</b> colors were kept muted and we focused the tone in the copy and design to one of resilliance.</li>
+								<li class = "last">People and organizations rose up to help during the pandemic. Their contributions helped feed Los Angeles during lockdown.<br><br><b class = "result">Result:</b> The list was expanded to include not just food in Los Angeles but also the people and organizations that helped the industry survive the pandemic.</li>
+								
 							</ul>
 							
 						</div>
@@ -238,39 +240,50 @@
 					<h2 data-aos="fade-right" class = "overflow-hide">Ideation</h2>
 					<div class = "flex">
 						<div data-aos="fade-right" class = "image inner overflow-hide">
-							<img alt = "Collection of stylized text and illustrations that we used for inspiration." src = "../images/projects/101_list/image2.png">
-							<p class = "image-caption">Our inspiration board shows the type of zine-esque vibe we were aiming for (Swetha Kannan / Los Angeles Times)</p>
-							<img alt = "Spreadsheet shows how we kept track of the restaurants we featured on the page" src = "../images/projects/101_list/image3.jpg">
-							<p class = "image-caption">A spreadsheet was used to keep track of all items. To transfer it into the page, a python script was run to clean each cell and prep it. (Swetha Kannan / Los Angeles Times)</p>
-						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">I, alongside a print designer, created the style guide that was distributed to the marketing, social, events, and promotion teams at the Times. The design had to go through reporters and editors to make sure it was cohesive with the vision of the year. We wanted to keep the playfulness of previous 101 lists but also incorporate a more serious tone indicitive of the severity of 2020.</p>
-							<p>I presenting 3 design schemes through mid-fidelity mockups. </p>
+							<h3>Find the right tone</h3>
+							<p>We initially presented 3 design schemes to stakeholders through Adobe XD mockups. This helped us hone in on the exact tone we wanted to stike with this story. </p>
 							<div class = "flex diff-styles">
 								<div class="inner">
 									<h3>
-										Food Truck
+										Food Truck look
 									</h3>
 									<div class = "image"><img alt = "logo shown in a red food truck menu themed style" src = "../images/projects/101_list/style/style1.png"></div>
 									<p><span class = "no">X</span> food truck theme did not connect with test audience. Unnecessarily metaphorical.</p>
 								</div>
 								<div class="inner">
 									<h3>
-										Food Truck
+										Minimalistic
 									</h3>
 									<div class = "image"><img alt = "logo shown in a minimalist style" src = "../images/projects/101_list/style/style2.png"></div>
 									<p><span class = "yes">✓</span> Test audience felt that  style was reminiscent of previous 101 lists.</p>
 								</div>
 								<div class="inner">
 									<h3>
-										Food Truck
+										Futuristic 
 									</h3>
 									<div class = "image"><img alt = "logo shown in a bold futuristic style" src = "../images/projects/101_list/style/style3.png"></div>
 									<p><span class = "no">X</span> Black background was hard for users to read on and colors wouldn’t translate well to print.</p>
 								</div>
 							</div>
 							<p>Ultimately, we choose to proceed with our minimalistic design.</p>
-							<p>I handled the development of a custom webpage on the Los Angeles Times site through our internal framework system using a previous template created by Ryan Murphy. I placed everything from the list into a massive spreadsheet, used a jupyter notebook to refine the list using python to reformat addresses, condense locations, etc. Using this, I was able to automatically generate each entry in our list by interating through this spreadsheet. Each section also featured a map which was automatically generated using the MapBox API.</p>
+						</div>
+						<div data-aos="fade-left" class = "text inner overflow-hide">
+
+							<img alt = "Collection of stylized text and illustrations that we used for inspiration." src = "../images/projects/101_list/image2.png">
+							<p class = "image-caption">Our inspiration board shows the type of zine-esque vibe we were aiming for (Swetha Kannan / Los Angeles Times)</p>
+							
+						</div>
+					</div>
+					<div class = "flex">
+						<div data-aos="fade-right" class = "image inner overflow-hide">
+							<h3>Implementation</h3>
+							<p class = "first">I, alongside a print designer, created the style guide that was distributed to the marketing, social, events, and promotion teams at the Times. The design had to go through reporters and editors to make sure it was cohesive with the vision of the year. We wanted to keep the playfulness of previous 101 lists but also incorporate a more serious tone indicitive of the severity of 2020.</p>
+							<img alt = "Spreadsheet shows how we kept track of the restaurants we featured on the page" src = "../images/projects/101_list/image3.jpg">
+							<p class = "image-caption">A spreadsheet was used to keep track of all items. To transfer it into the page, a python script was run to clean each cell and prep it. (Swetha Kannan / Los Angeles Times)</p>
+						</div>
+						<div data-aos="fade-left" class = "text inner overflow-hide">
+							<h3 class = "hide">Implementation</h3>
+							<p>I handled the development of a custom webpage on the Los Angeles Times site through our internal framework system using a previous template created by Ryan Murphy. I placed everything from the list into a massive spreadsheet, used a jupyter notebook to refine the list, and used python to reformat addresses, condense locations, etc. Through this system, I was able to automatically generate each entry in our list by interating through this spreadsheet. Each section also featured a map which was automatically generated using the MapBox API.</p>
 						</div>
 					</div>
 				</div>

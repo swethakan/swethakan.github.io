@@ -82,34 +82,28 @@
 					<h2 data-aos="fade-right" class = "overflow-hide">Understanding the problem Space</h2>
 					<div data-aos="fade-right" class = "flex overflow-hide">
 						<div class = "image inner">
+							<h3 class = "takeaways">Competitive analysis</h3>
 							<img alt = "screenshot of the front page of the California's department of love." src = "../images/projects/coronavirus/image1.png">
 							<p class = "image-caption">We filtered information given to is by the California Department of Public Health. (Swetha Kannan / Los Angeles Times)</p>
 							<p class = "first">We had to get the initial page up within 3 days of starting our work on the tracker. California had started whispers of possibly going into lockdown and as it became a very real possibility, we rushed to mockup the dashboard in Adobe XD, <b>analyze how competitors</b> like the New York Times are visualizing similar data, talk to the California Department of Public Health to gather data, and publish the dashboard.</p>
+							
+
 						</div>
 						<div data-aos="fade-left" class = "text inner overflow-hide">
 							<h3>Takeaways</h3>
 							<ul class = "numbered">
-								<li>Most competitors avoided using alarming colors such as red or orange. We agreed that this was good practice.</li>
-								<li>California provided a count of cases across the state but each individual county provided seperate counts as well.</li>
-								<li>Most cases started in the Bay area and therefore it made sense to create a map centered on just this location. Later, this became irrelevant as the whole state's cases grew.</li>
+								<li><b>Use mild colors - </b>Most competitors avoided using alarming colors such as red or orange. We agreed that this was good practice.<br><br><b class = "result">Result:</b> We changed out mockups and used greys and blues for most of the data visualizations on this dashboard.
+								<img alt = "Hi-fi mockup using orange and yellow colors." src = "../images/projects/coronavirus/image2.jpg" style = "max-width:400px;margin:auto;display:block;">
+								<p style = "text-align: center;padding-top:10px" class = "image-caption">Hi-fi mockup created using Abode XD (Swetha Kannan / Los Angeles Times)</p>
+								</li>
+
+								<li><b>Data flow between county and state - </b>California provided a count of cases across the state but each individual county provided seperate counts as well.<br><br><b class = "result">Result:</b> We found that the state updated numbers only once per day and, for easier maintenance, elected to use those numbers.</li>
+								<li class = "last"><b>Bay area had the most cases - </b>Because of an outbreak in a cruise ship, most cases were in the Bay area. <br><br><b class = "result">Result:</b>We created a map centered on just this location. Later, this became irrelevant as the whole state's cases grew.</li>
 							</ul>
 							
 						</div>
 					</div>
-					<div data-aos="fade-right" class = "flex overflow-hide">
-						<div class = "image inner">
-							<p>Initially, we published with only the state’s coronavirus data but as we continued to <b>interview with county officials</b> about the quality of data that was released. We also had <b>user feedback</b> based on our first iteration about features they wanted on the coronavirus tracker. </p>
-						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-
-							<h3>Takeaways</h3>
-							<ul class = "numbered">
-								<li>There was a huge gap between the information that the county has and the outdated information of the state. Thus, we made the decision to start using county data for more accurate information.</li>
-								<li>Users wanted more granualar information such as the coronavirus cases in their specific location. We pressed county officials for this information.</li>
-								<li>Users wanted to see a depiction of the numbers adjusted for population. As the state of the pandemic became worse and the numbers became larger, this was also needed for clarity.</li>
-							</ul>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 
@@ -128,19 +122,37 @@
 			<div class = "the-process">
 				<div class = "contain">
 					<h2 data-aos="fade-right" class = "overflow-hide">Ideation</h2>
-					<div class = "flex">
-						<div data-aos="fade-right" class = "image inner overflow-hide">
-							<img alt = "Hi-fi mockup using orange and yellow colors." src = "../images/projects/coronavirus/image2.jpg">
-							<p class = "image-caption">Hi-fi mockup created used Abode XD (Swetha Kannan / Los Angeles Times)</p>
-							<img alt = "map shows the distribution of coronavirus cases over california" src = "../images/projects/coronavirus/image3.jpg">
-							<p class = "image-caption">Bubble map styling using MapBox. (Swetha Kannan / Los Angeles Times)</p>
+					<div data-aos="fade-right" class = "flex overflow-hide">
+						<div class = "image inner">
+							<h3 class = "takeaways">Expert & user synthesis</h3>
+							<p>Initially, we published with only the state’s coronavirus data but as we continued to <b>interview with county officials</b> about the quality of data that was released. We also had <b>user feedback</b> based on our first iteration about features they wanted on the coronavirus tracker. </p>
+							<img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image1-1.jpg">
+							<br><p>Due to user demand, line charts were added that showed the total amount of cases or numbers adjusted for population.</p>
+							<img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image2-2.png">
 						</div>
 						<div data-aos="fade-left" class = "text inner overflow-hide">
+
+							<h3>Takeaways</h3>
+							<ul class = "numbered">
+								<li><b>Resolve multiple sources of information - </b>There was a gap between the information that the county and information from the state. Many users were confused what to trust. <br><br><b class = "result">Result:</b> We made the decision to start using county data for more accurate and granular information.</li>
+								<li> <b>More detailed maps - </b>Users wanted more granualar information such as the coronavirus cases in their specific location. <br><br><b class = "result">Result:</b> We pressed county officials for this information and, when it was available, created a map of cases seperated by Zipcode.</li>
+								<li class = "last"><b>Adjust numbers for population - </b>Users wanted to see how numbers compared between counties and major cities. As the state of the pandemic became worse and the numbers became larger, population adjustment was also needed for clarity.<br><br><b class = "result">Result:</b> We added a line chart that adjusted for population and showed the trajectory of each C.A. county.</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class = "flex">
+						<div data-aos="fade-right" class = "image inner overflow-hide">
+							<!-- <img alt = "map shows the distribution of coronavirus cases over california" src = "../images/projects/coronavirus/image3.jpg">
+							<p class = "image-caption">Bubble map styling using MapBox. (Swetha Kannan / Los Angeles Times)</p> -->
+							<h3>Ongoing Maintenance</h3>
 							<p class = "first">To create the graphics on the page, we used a variety of javascript libraries -- most notably D3. The interactive city map on the page was made using Nearmap and the Nearmap API. Beyond the visuals, the page also uses python scrapers that grabs information from a google sheet where we tracked the growth of the virus across California. This scraper was able to easily update our page through just a few terminal commands.</p>
-							<p>To initially design the page, we used Adobe XD to mockup our ideas.</p>
-							<p>This page was updating at a minimum about 4 times a day from publishing in March until now. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle. </p>
-							<p>We contineud updating the page based on <b>user feedback</b>. Most notably, by adding granular data through a map that showed a zipcode-by-zipcode breakdown of cases.</p>
-							<!-- <p>My major contributions were the topper, summary box, city and county map, maintenance of the data, and generally helping others in the production and upkeep of the page.</p> -->
+						</div>
+						<div data-aos="fade-left" class = "text inner overflow-hide">
+							<h3 style = "color:white;">Continued</h3>
+							
+							<p>This page was updating at a minimum about 4 times a day from publishing in March until now. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle.</p>
+							
 						</div>
 					</div>
 				</div>
