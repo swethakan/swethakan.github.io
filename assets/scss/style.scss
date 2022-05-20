@@ -891,7 +891,14 @@ body{
         }
     }
     .the-process{
-
+        .tone{
+           span{
+               font-weight: 700;
+               background-color: $gold;
+               margin:0px 5px;
+               padding:0px 2px;
+           }
+        }
         .diff-styles{
             align-items: center;
             justify-content: center;

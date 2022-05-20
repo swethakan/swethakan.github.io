@@ -886,6 +886,12 @@ body .image-caption {
 .restaurants .darkBG a {
   color: #f9f8f2;
 }
+.restaurants .the-process .tone span {
+  font-weight: 700;
+  background-color: #FFB84D;
+  margin: 0px 5px;
+  padding: 0px 2px;
+}
 .restaurants .the-process .diff-styles {
   align-items: center;
   justify-content: center;
