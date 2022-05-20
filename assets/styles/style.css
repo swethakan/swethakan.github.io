@@ -500,10 +500,44 @@ body .image-caption {
   padding-top: 80px;
 }
 
+.design-considerations {
+  padding: 0px;
+  margin-top: -20px;
+  padding: 0px 30px;
+}
+.design-considerations h3 {
+  color: #FFB84D;
+  font-size: 15px;
+}
+.design-considerations .flex .inner {
+  width: 30%;
+  padding-right: 3%;
+}
+@media only screen and (max-width: 700px) {
+  .design-considerations .flex .inner {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .design-considerations {
+    padding: 0px;
+  }
+}
+.design-considerations h2 {
+  padding-top: 80px;
+}
+
 .the-process {
   padding: 0px;
   margin-top: -20px;
   padding: 0px 30px;
+}
+.the-process .single {
+  max-width: 750px;
+  margin: auto;
+}
+.the-process .single h3 {
+  text-align: center;
 }
 @media only screen and (max-width: 700px) {
   .the-process {
@@ -608,6 +642,9 @@ body .image-caption {
   margin: auto;
   padding: 20px;
 }
+.ocean_game .topper p, .ocean_game .topper a {
+  color: black;
+}
 .ocean_game .darkBG {
   background-color: #202830;
   color: white;
@@ -640,6 +677,10 @@ body .image-caption {
   vertical-align: center;
   margin-top: 7%;
   height: 100vh !important;
+}
+.restaurants .topper p, .restaurants .topper a {
+  color: black;
+  text-align: right;
 }
 .restaurants .topper .flex {
   padding-top: 10%;
@@ -842,14 +883,17 @@ body .image-caption {
   background-color: rgba(12, 12, 11, 0.932);
   color: #f9f8f2;
 }
+.restaurants .darkBG a {
+  color: #f9f8f2;
+}
 .restaurants .the-process .diff-styles .inner {
-  max-width: 250px;
+  max-width: 750px;
 }
 .restaurants .the-process .diff-styles h3 {
   text-align: center;
 }
 .restaurants .the-process .diff-styles p {
-  font-size: 12px;
+  font-size: 14px;
   padding: 0px 10px;
 }
 .restaurants .the-process .diff-styles .image {
@@ -875,6 +919,9 @@ body .image-caption {
 }
 .sw_women .topper h1 {
   font-weight: normal;
+}
+.sw_women .topper p, .sw_women .topper a {
+  color: #F1F2C9;
 }
 .sw_women .topper .flex {
   max-width: 1200px;
@@ -912,12 +959,18 @@ body .image-caption {
   background-color: #14151B;
   color: #F1F2C9;
 }
+.sw_women .darkBG a {
+  color: #F1F2C9 !important;
+}
 .sw_women .the-results .image {
   overflow-x: visible;
 }
 .sw_women .the-results img {
   border: 1px solid #F1F2C9;
   border-right: 1px solid #F1F2C9;
+}
+.sw_women .the-results a {
+  color: #F1F2C9;
 }
 
 .coronavirus .topper {
@@ -955,12 +1008,21 @@ body .image-caption {
 .coronavirus .topper .inner h1 .green {
   color: #ADC839;
 }
+.coronavirus .topper .inner p, .coronavirus .topper .inner a {
+  width: 400px;
+  padding: 20px 0px;
+  margin: auto;
+  color: white;
+}
 .coronavirus .topper img {
   width: 100%;
 }
 .coronavirus .darkBG {
   background-color: #08445C;
   color: #feffff;
+}
+.coronavirus .the-results a {
+  color: white;
 }
 
 .casper a {

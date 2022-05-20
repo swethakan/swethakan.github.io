@@ -501,10 +501,43 @@ body{
         padding-top:80px;
     }
 }
+.design-considerations{
+        padding:0px;
+    margin-top: -20px;
+    padding: 0px 30px;
+
+    h3{
+        color:$gold;
+        font-size: 15px;
+    }
+    .flex{
+        .inner{
+            width:30%;
+            padding-right:3%;
+            @media only screen and (max-width: 700px) {
+                    width: 95%;
+                }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        padding:0px;
+    }
+    h2{
+        padding-top:80px;
+    }
+}
 .the-process{
     padding:0px;
     margin-top: -20px;
     padding: 0px 30px;
+    .single{
+        max-width: 750px;
+        margin: auto;
+        h3{
+            text-align: center;
+        }
+    }
     @media only screen and (max-width: 700px) {
         padding:0px;
     }
@@ -606,6 +639,9 @@ body{
             margin:auto;
             padding:20px;
         }
+        p,a{
+        color:black;
+        }
     }
     .darkBG{
         background-color: $ocean;
@@ -644,6 +680,11 @@ body{
         vertical-align: center;
         margin-top: 7%;
         height: calc(100vh)!important;
+
+        p, a{
+            color:black;
+            text-align:right;
+        }
         .flex{
             padding-top: 10%;
         }
@@ -843,17 +884,21 @@ body{
     .darkBG{
         background-color: $foods;
         color: #f9f8f2;
+        a{
+            color:#f9f8f2;
+        }
     }
     .the-process{
+
         .diff-styles{
             .inner{
-                max-width: 250px;
+                max-width: 750px;
             }
             h3{
                 text-align: center;
             }
             p{
-                font-size: 12px;
+                font-size: 14px;
                 padding:0px 10px;
             }
             .image{
@@ -882,6 +927,9 @@ body{
         color:#F1F2C9;
         h1{
             font-weight: normal;
+        }
+        p,a{
+            color:#F1F2C9;
         }
         .flex{
             max-width: 1200px;
@@ -917,6 +965,9 @@ body{
     .darkBG{
         background-color: $star_wars;
         color: #F1F2C9;
+        a{
+            color:#F1F2C9!important;
+        }
     }
     .the-results{
         .image{
@@ -925,6 +976,9 @@ body{
         img{
             border:1px solid #F1F2C9;
             border-right:1px solid #F1F2C9;
+        }
+        a{
+            color:#F1F2C9;
         }
     }
 }
@@ -959,6 +1013,12 @@ body{
                     color:#ADC839;
                 }
             }
+            p,a{
+                width:400px;
+                padding:20px 0px;
+                margin: auto;
+                color: white;
+            }
         }
         img{
             width:100%;
@@ -967,6 +1027,11 @@ body{
     .darkBG{
         background-color: $coronavirus;
         color: #feffff;
+    }
+    .the-results{
+        a{
+            color: white;
+        }
     }
 }
 
