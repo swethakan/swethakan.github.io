@@ -464,7 +464,6 @@ body .image-caption {
 }
 .understand-problem-space h2, .the-process h2, .the-results h2 {
   font-size: 25px;
-  text-transform: uppercase;
 }
 .understand-problem-space img, .the-process img, .the-results img {
   width: 100%;
@@ -524,7 +523,7 @@ body .image-caption {
   }
 }
 .design-considerations h2 {
-  padding-top: 80px;
+  padding-top: 0px;
 }
 
 .the-process {
@@ -533,11 +532,11 @@ body .image-caption {
   padding: 0px 30px;
 }
 .the-process .single {
-  max-width: 750px;
   margin: auto;
 }
 .the-process .single h3 {
-  text-align: center;
+  text-align: left;
+  font-size: 20px;
 }
 @media only screen and (max-width: 700px) {
   .the-process {
@@ -546,6 +545,7 @@ body .image-caption {
 }
 .the-process h2 {
   padding-top: 80px;
+  margin-top: 0px;
 }
 
 .the-results {
@@ -886,15 +886,16 @@ body .image-caption {
 .restaurants .darkBG a {
   color: #f9f8f2;
 }
+.restaurants .the-process .diff-styles {
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px;
+}
 .restaurants .the-process .diff-styles .inner {
   max-width: 750px;
 }
-.restaurants .the-process .diff-styles h3 {
-  text-align: center;
-}
 .restaurants .the-process .diff-styles p {
-  font-size: 14px;
-  padding: 0px 10px;
+  max-width: 350px;
 }
 .restaurants .the-process .diff-styles .image {
   width: 90%;
