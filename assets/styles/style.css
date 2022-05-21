@@ -19,6 +19,16 @@ html {
   }
 }
 
+.mobile-screens .inner {
+  margin: 60px;
+}
+.mobile-screens .inner img {
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px #cfbfa4;
+  width: 100%;
+  border: 1px solid #c1a67d;
+}
+
 ul.numbered {
   list-style-type: decimal;
 }
@@ -498,6 +508,19 @@ body .image-caption {
 .goals h2 {
   padding-top: 80px;
 }
+.goals h3 {
+  color: #FFB84D;
+  font-size: 15px;
+}
+.goals .flex .inner {
+  width: 30%;
+  padding-right: 3%;
+}
+@media only screen and (max-width: 700px) {
+  .goals .flex .inner {
+    width: 95%;
+  }
+}
 
 .design-considerations {
   padding: 0px;
@@ -886,11 +909,17 @@ body .image-caption {
 .restaurants .darkBG a {
   color: #f9f8f2;
 }
-.restaurants .the-process .tone span {
+.restaurants .the-process .tone span, .restaurants .the-process .contain span {
   font-weight: 700;
   background-color: #FFB84D;
   margin: 0px 5px;
   padding: 0px 2px;
+}
+.restaurants .the-process .big-text {
+  margin-top: 50px;
+}
+.restaurants .the-process .big-text p {
+  text-align: center;
 }
 .restaurants .the-process .diff-styles {
   align-items: center;
@@ -913,10 +942,12 @@ body .image-caption {
 .restaurants .the-process .diff-styles .no {
   color: red;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
 }
 .restaurants .the-process .diff-styles .yes {
   color: green;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .sw_women .topper {
@@ -1229,6 +1260,64 @@ body .image-caption {
 
 .connect-up {
   background-image: url("../images/connect-up.png");
+}
+
+#g-101_design-box,
+#g-101_design-box .g-artboard {
+  margin: 0 auto;
+}
+
+#g-101_design-box p {
+  margin: 0;
+}
+
+#g-101_design-box .g-aiAbs {
+  position: absolute;
+}
+
+#g-101_design-box .g-aiImg {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100% !important;
+}
+
+#g-101_design-box .g-aiSymbol {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+#g-101_design-box .g-aiPointText p {
+  white-space: nowrap;
+}
+
+#g-101_design-Artboard_41 {
+  position: relative;
+  overflow: hidden;
+}
+
+#g-101_design-Artboard_41 p {
+  font-weight: 500;
+  line-height: 23px;
+  opacity: 1;
+  letter-spacing: 0em;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  text-transform: none;
+  padding-bottom: 0;
+  padding-top: 0;
+  mix-blend-mode: normal;
+  font-style: normal;
+  height: auto;
+  position: static;
+}
+
+#g-101_design-Artboard_41 .g-pstyle0 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
