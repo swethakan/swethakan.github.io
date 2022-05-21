@@ -28,6 +28,14 @@ html {
   width: 100%;
   border: 1px solid #c1a67d;
 }
+@media only screen and (max-width: 700px) {
+  .mobile-screens .inner img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
 
 ul.numbered {
   list-style-type: decimal;
@@ -405,7 +413,7 @@ body .image-caption {
   text-align: center;
 }
 .high-level-summary img {
-  max-width: 200px;
+  max-width: 300px;
 }
 .high-level-summary ul {
   margin-left: 70px;
@@ -569,6 +577,11 @@ body .image-caption {
 .the-process h2 {
   padding-top: 80px;
   margin-top: 0px;
+}
+@media only screen and (max-width: 700px) {
+  .the-process h2 {
+    padding-top: 0px;
+  }
 }
 
 .the-results {
@@ -909,11 +922,34 @@ body .image-caption {
 .restaurants .darkBG a {
   color: #f9f8f2;
 }
+.restaurants .high-level-summary .image {
+  min-width: 340px;
+}
+.restaurants .high-level-summary img {
+  max-width: 300px;
+  border-radius: 30px;
+  border: 1px solid #cfbfa4;
+  box-shadow: 10px 5px 5px #cfbfa4;
+}
 .restaurants .the-process .tone span, .restaurants .the-process .contain span {
   font-weight: 700;
   background-color: #FFB84D;
   margin: 0px 5px;
   padding: 0px 2px;
+}
+.restaurants .the-process .sketches img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+.restaurants .the-process .sketches h3 {
+  margin-top: 50px;
+}
+.restaurants .the-process .sketches ul {
+  padding-inline-start: 17px;
+}
+.restaurants .the-process .sketches li {
+  margin-top: 20px;
 }
 .restaurants .the-process .big-text {
   margin-top: 50px;
@@ -1262,6 +1298,15 @@ body .image-caption {
   background-image: url("../images/connect-up.png");
 }
 
+.ai2html, #g-101_design-Artboard_41 {
+  width: 100% !important;
+  display: block;
+  margin: auto;
+}
+.ai2html img, #g-101_design-Artboard_41 img {
+  width: 100%;
+}
+
 #g-101_design-box,
 #g-101_design-box .g-artboard {
   margin: 0 auto;
@@ -1311,6 +1356,59 @@ body .image-caption {
   font-style: normal;
   height: auto;
   position: static;
+}
+
+@media only screen and (max-width: 1135px) {
+  #g-ai4-3 {
+    top: 7.3152% !important;
+  }
+}
+@media only screen and (max-width: 1135px) {
+  #g-ai4-3 {
+    top: 2% !important;
+  }
+}
+@media only screen and (max-width: 820px) {
+  #g-ai4-3 {
+    top: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 1135px) {
+  #g-ai4-4 {
+    top: 34.0528% !important;
+  }
+}
+@media only screen and (max-width: 1135px) {
+  #g-ai4-4 {
+    top: 25% !important;
+  }
+}
+@media only screen and (max-width: 820px) {
+  #g-ai4-4 {
+    top: 18% !important;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  #g-ai4-5 {
+    top: 81.2793% !important;
+  }
+}
+@media only screen and (max-width: 1135px) {
+  #g-ai4-5 {
+    top: 75.2793% !important;
+  }
+}
+@media only screen and (max-width: 1135px) {
+  #g-ai4-5 {
+    top: 65% !important;
+  }
+}
+@media only screen and (max-width: 820px) {
+  #g-ai4-5 {
+    top: 51% !important;
+  }
 }
 
 #g-101_design-Artboard_41 .g-pstyle0 {
