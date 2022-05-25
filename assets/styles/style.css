@@ -1484,4 +1484,30 @@ body .image-caption {
   text-align: right;
 }
 
+#g-coronavirus-Artboard_2 {
+  position: relative;
+  overflow: hidden;
+}
+
+#g-coronavirus-Artboard_2 p {
+  font-weight: 500;
+  line-height: 15px;
+  opacity: 1;
+  letter-spacing: 0em;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  text-transform: none;
+  padding-bottom: 0;
+  padding-top: 0;
+  mix-blend-mode: normal;
+  font-style: normal;
+  height: auto;
+  position: static;
+}
+
+#g-coronavirus-Artboard_2 .g-pstyle0 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

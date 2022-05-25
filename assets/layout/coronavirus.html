@@ -158,7 +158,7 @@
 					<div data-aos="fade-right" class = "overflow-hide">
 						<p>53 agencies across California release data daily about the state of the coronavirus. There was a gap between the information that these county-level agencies put out and information from the state. We made the decision to start using county data for more accurate and granular information.</p>
 						<h3 class = "takeaways">Mapping the virus</h3>
-						<p>I experimented with different ways we could show the spread of the virus across California through maps.</p>
+						<p>My main responsibility on this page was the presentation of our initial maps. I experimented with different ways we could show the spread of the virus across California through maps.</p>
 						<div class = "flex image-small">
 							<div class = "inner">
 								<h4>Original map</h4>
@@ -177,25 +177,40 @@
 						<p>Due to user demand, line charts were added that showed the total amount of cases or numbers adjusted for population.</p>
 						<!-- <img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image2-2.png"> -->
 						<h3 class = "takeaways">Top-level numbers</h3>
+						<p>At the very top of the page are the numbers that everyone immediately looks for about the coronavirus: the current amount of cases detected in California, and the deaths. Later information about how many people are vaccinated also joined these numbers. The information up top went through a variety of iterations.</p>
 						<div class ="flex">
 							<div class = "inner">
 								<h4>Original</h4>
+								<div style = "max-width:700px;margin:auto;display:block;">
+									<div id="g-coronavirus-box" class="ai2html">
+									<!-- Artboard: Artboard_2 -->
+										<div id="g-coronavirus-Artboard_2" class="g-artboard" style="max-width:1200px; height:374.844382559908px;" data-aspect-ratio="1.569" data-min-width="1200">
+											<img id="g-coronavirus-Artboard_2-img" class="g-coronavirus-Artboard_2-img g-aiImg" alt="" src="../images/projects/coronavirus/coronavirus-Artboard_2.jpg"/>
+											<div id="g-ai5-1" class="g-Layer_1 g-aiAbs" style="top:0.0%;left:56.0121%;width:38%;">
+												<p>Became obsolete</p>
+											</div>
+											<div id="g-ai5-2" class="g-Layer_1 g-aiAbs" style="top:88.2604%;left:49.6282%;margin-left:-46.7083%;width:93.4167%;">
+												<p class="g-pstyle0">U.S. and Global numbers distracted from California</p>
+											</div>
+										</div>
+									</div>
+								</div>
 								
 							</div>
-							<div class ="inner">
+							<div class ="inner text">
 								<h4>Updated</h4>
 								<div style = "max-width:700px;margin:auto;display:block;">
 								<div id="g-coronavirus-box" class="ai2html">
-									<div id="g-coronavirus-Artboard_1" class="g-artboard" style="max-width:1200px; height:633.166392079345px;" data-aspect-ratio="1.895" data-min-width="1200">
-										
-										<img id="g-coronavirus-Artboard_1-img" class="g-coronavirus-Artboard_1-img g-aiImg" alt="" src="../images/projects/coronavirus/coronavirus-Artboard_1.jpg"/>
-										<div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:7.7397%;right:20.1332%;width:38%;">
-												<p class="g-pstyle0">Added later</p>
-										</div>
-										<div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:47.3896%;left:3.0337%;width:66.3333%;">
-												<p>Top-level numbers are useless without this context</p>
-										</div>
-									</div>
+									<!-- Artboard: Artboard_1 -->
+									<div id="g-coronavirus-Artboard_1" class="g-artboard" style="max-width:1200px; height:319.137483580465px;" data-aspect-ratio="2.312" data-min-width="1200">
+												<img id="g-coronavirus-Artboard_1-img" class="g-coronavirus-Artboard_1-img g-aiImg" alt="" src="../images/projects/coronavirus/coronavirus-Artboard_1.jpg"/>
+												<div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:3.082%;right:20.1332%;width:38%;">
+													<p class="g-pstyle0">Added later</p>
+												</div>
+												<div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:73.2233%;left:3.0337%;width:66.3333%;">
+													<p>Top-level numbers are useless without this context</p>
+												</div>
+											</div>
 								</div>
 								</div>
 							</div>
@@ -236,7 +251,7 @@
 					<div data-aos="fade-right" class = "overflow-hide">
 						<h3>Long pages</h3>
 						<p>The dashboards were long webpages pages and users were only interested in one or two pieces of specific data on the page. Both mobile and desktop had to be easily navigatable.</p>
-						<p>The top of each dashboard contained a list of all the sections on that page. The list was kept simple without confusing logos or colors.</p>
+						<p>The <span>top of each dashboard </span>contained a list of all the sections on that page. The list was kept simple without confusing logos or colors.</p>
 						<div class = "flex">
 							<div class = "inner">
 								<h4>Desktop navigation at the top of the page</h4>
@@ -297,7 +312,7 @@
 				<div data-aos="fade-down" class = "contain overflow-hide">
 					<h2>Implementation</h2>
 					<p>To create the graphics on the page, we used a variety of javascript libraries -- most notably D3. The interactive city map on the page was made using Nearmap and the Nearmap API. Beyond the visuals, the page also uses python scrapers that grabs information from a google sheet where we tracked the growth of the virus across California. This scraper was able to easily update our page through just a few terminal commands.</p>
-					<p>This page was updating at a minimum about 4 times a day from publishing in March until now. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle.</p>
+					<p>From when it was published to the end of 2021, the page was updated at a minimum of 4 times a day. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle.</p>
 					<div class = "flex">
 						<div  class = "solution inner">
 							<h3>Tools</h3>
@@ -321,7 +336,8 @@
 			<!-- Here is where we explain process -->
 			<div class = "the-process">
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">Branding</h2>
+					<h2 data-aos="fade-right" class = "overflow-hide">Screens</h2>
+					<img src = "../images/projects/coronavirus/screens.jpg"> 
 					
 				</div>
 			</div>
