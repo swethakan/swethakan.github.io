@@ -1091,6 +1091,17 @@ body .image-caption {
 .coronavirus .topper img {
   width: 100%;
 }
+.coronavirus .the-process span {
+  font-weight: 700;
+  background-color: #FFB84D;
+  margin: 0px 5px;
+  padding: 0px 2px;
+}
+.coronavirus .image-small img {
+  max-width: 350px;
+  margin: auto;
+  display: block;
+}
 .coronavirus .darkBG {
   background-color: #08445C;
   color: #feffff;
@@ -1416,6 +1427,61 @@ body .image-caption {
   line-height: 24px;
   font-size: 20px;
   text-align: center;
+}
+
+#g-coronavirus-box,
+#g-coronavirus-box .g-artboard {
+  margin: 0 auto;
+}
+
+#g-coronavirus-box p {
+  margin: 0;
+}
+
+#g-coronavirus-box .g-aiAbs {
+  position: absolute;
+}
+
+#g-coronavirus-box .g-aiImg {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100% !important;
+}
+
+#g-coronavirus-box .g-aiSymbol {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+#g-coronavirus-box .g-aiPointText p {
+  white-space: nowrap;
+}
+
+#g-coronavirus-Artboard_1 {
+  position: relative;
+  overflow: hidden;
+}
+
+#g-coronavirus-Artboard_1 p {
+  font-weight: 500;
+  line-height: 17px;
+  opacity: 1;
+  letter-spacing: 0em;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  text-transform: none;
+  padding-bottom: 0;
+  padding-top: 0;
+  mix-blend-mode: normal;
+  font-style: normal;
+  height: auto;
+  position: static;
+}
+
+#g-coronavirus-Artboard_1 .g-pstyle0 {
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -93,9 +93,7 @@
 						<div data-aos="fade-left" class = "text inner overflow-hide">
 							<h3>Key Insights</h3>
 							<ul class = "numbered">
-								<li><b>Use mild colors - </b>Most competitors avoided using alarming colors such as red or orange. We agreed that this was good practice.<br><br><b class = "result">Result:</b> We changed out mockups and used greys and blues for most of the data visualizations on this dashboard.
-								<img alt = "Hi-fi mockup using orange and yellow colors." src = "../images/projects/coronavirus/image2.jpg" style = "max-width:400px;margin:auto;display:block;">
-								<p style = "text-align: center;padding-top:10px" class = "image-caption">Hi-fi mockup created using Abode XD (Swetha Kannan / Los Angeles Times)</p>
+								<li><b>Use mild colors - </b>Most competitors avoided using alarming colors such as red or orange. We agreed that this was good practice.<br><br><b class = "result">Result:</b> I changed colors from our mockups and used greys and blues for most of the data visualizations on this dashboard.
 								</li>
 
 								<li><b>Data flow between county and state - </b>California provided a count of cases across the state but each individual county provided seperate counts as well.<br><br><b class = "result">Result:</b> We found that the state updated numbers only once per day and, for easier maintenance, elected to use those numbers.</li>
@@ -116,44 +114,178 @@
 					<p>To provide California residents with an informative, convenient, and honest look at the State’s coronavirus data for the duration of the pandemic. </p>
 					<p>After we published in March 2020, we contributed various improvements and expansions for the duration of the pandemic.</p>
 				</div>
+				<div class = "design-considerations">
+					<div data-aos="fade-down" class = "contain overflow-hide">
+						<h2>Design considerations</h2>
+						<div class = "flex">
+							<div  class = "solution inner">
+								<h3>Consumable Data</h3>
+								<p>We needed to boil down loads of data coming in daily from 53 agencies.</p>
+							</div>
+							<div  class = "stakeholders inner">
+								<h3>Responsive design</h3>
+								<p>The page had to perform well on all platforms, since over 40% of the Times' audience used mobile devices to access the site.</p>
+							</div>
+							<div  class = "problem-space inner">
+								<h3>Voice & Tone</h3>
+								<p>The tone of the page had to be serious but not alarming. Stoic but not robotic.</p>
+							</div>
+						</div>
+						<div class = "flex">
+							<div  class = "solution inner">
+								<h3>Cater to different audiences</h3>
+								<p>Some people cared about where the Virus was spreading. Others only cared about where vaccines were available. The dashboard had to provide avenues for everyone to get what they want.</p>
+							</div>
+							<div  class = "stakeholders inner">
+								<h3>Navigation</h3>
+								<p>Because the project turned into a series of dashboards, it had to link to each other in clear ways. Some dashboards were extremely long pages and users had to have an easy way of going through them</p>
+								<!-- <p>The page needed to perform well on all platforms, since over 40% of the Times' audience at the time used mobile devices to access the site.</p> -->
+							</div>
+							<!-- <div  class = "problem-space inner">
+								<h3>Navigation</h3>
+								<p>The da</p>
+							</div> -->
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="mobile-only connect-down"></div>
 			<!-- Here is where we explain process -->
 			<div class = "the-process">
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">Improvements</h2>
-					<div data-aos="fade-right" class = "flex overflow-hide">
-						<div class = "image inner">
-							<h3 class = "takeaways">Changes from user & expert feedback</h3>
-							<p>Initially, we published with only the state’s coronavirus data but as we continued to <b>interview with county officials</b> about the quality of data that was released. We also had <b>user feedback</b> based on our first iteration about features they wanted on the coronavirus tracker. </p>
-							<img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image1-1.jpg">
-							<br><p>Due to user demand, line charts were added that showed the total amount of cases or numbers adjusted for population.</p>
-							<img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image2-2.png">
+					<h2 data-aos="fade-right" class = "overflow-hide">Designing data graphics</h2>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<p>53 agencies across California release data daily about the state of the coronavirus. There was a gap between the information that these county-level agencies put out and information from the state. We made the decision to start using county data for more accurate and granular information.</p>
+						<h3 class = "takeaways">Mapping the virus</h3>
+						<p>I experimented with different ways we could show the spread of the virus across California through maps.</p>
+						<div class = "flex image-small">
+							<div class = "inner">
+								<h4>Original map</h4>
+								<p>The chloropleth map gave a good estimate of where cases are. However, it provided a skewed understanding.</p>
+								<img alt = "screenshots of a county-level chloropath map that shows where there was most coronavirus cases in California" src = "../images/projects/coronavirus/map1.jpg">
+							</div>
+							<div class = "inner text">
+								<h4>Revised map</h4>
+								<p>A bubble map did a much <span>better job of showing areas where the virus was concentrated</span> and was more useful to people looking to see where they can travel.</p>
+								<img alt = "screenshots of a county-level bubble map map that shows where there was most coronavirus cases in California" src = "../images/projects/coronavirus/map2.jpg">
+							</div>
 						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-
-							<h3>Key Insights</h3>
-							<ul class = "numbered">
-								<li><b>Resolve multiple sources of information - </b>There was a gap between the information that the county and information from the state. Many users were confused what to trust. <br><br><b class = "result">Result:</b> We made the decision to start using county data for more accurate and granular information.</li>
-								<li> <b>More detailed maps - </b>Users wanted more granualar information such as the coronavirus cases in their specific location. <br><br><b class = "result">Result:</b> We pressed county officials for this information and, when it was available, created a map of cases seperated by Zipcode.</li>
-								<li class = "last"><b>Adjust numbers for population - </b>Users wanted to see how numbers compared between counties and major cities. As the state of the pandemic became worse and the numbers became larger, population adjustment was also needed for clarity.<br><br><b class = "result">Result:</b> We added a line chart that adjusted for population and showed the trajectory of each C.A. county.</li>
-							</ul>
+						<br>
+						<br><br>
+						<h3 class = "takeaways">Showing the history of the virus</h3>
+						<p>Due to user demand, line charts were added that showed the total amount of cases or numbers adjusted for population.</p>
+						<!-- <img alt = "screenshots of a county-level map and a zipcode-by-zipcode level map show how we changed the data to be granular in response to user needs" src = "../images/projects/coronavirus/image2-2.png"> -->
+						<h3 class = "takeaways">Top-level numbers</h3>
+						<div class ="flex">
+							<div class = "inner">
+								<h4>Original</h4>
+								
+							</div>
+							<div class ="inner">
+								<h4>Updated</h4>
+								<div style = "max-width:700px;margin:auto;display:block;">
+								<div id="g-coronavirus-box" class="ai2html">
+									<div id="g-coronavirus-Artboard_1" class="g-artboard" style="max-width:1200px; height:633.166392079345px;" data-aspect-ratio="1.895" data-min-width="1200">
+										
+										<img id="g-coronavirus-Artboard_1-img" class="g-coronavirus-Artboard_1-img g-aiImg" alt="" src="../images/projects/coronavirus/coronavirus-Artboard_1.jpg"/>
+										<div id="g-ai0-1" class="g-Layer_1 g-aiAbs" style="top:7.7397%;right:20.1332%;width:38%;">
+												<p class="g-pstyle0">Added later</p>
+										</div>
+										<div id="g-ai0-2" class="g-Layer_1 g-aiAbs" style="top:47.3896%;left:3.0337%;width:66.3333%;">
+												<p>Top-level numbers are useless without this context</p>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<div class = "flex">
-						<div data-aos="fade-right" class = "image inner overflow-hide">
-							<!-- <img alt = "map shows the distribution of coronavirus cases over california" src = "../images/projects/coronavirus/image3.jpg">
-							<p class = "image-caption">Bubble map styling using MapBox. (Swetha Kannan / Los Angeles Times)</p> -->
-							<h3>Ongoing Maintenance</h3>
-							<p class = "first">To create the graphics on the page, we used a variety of javascript libraries -- most notably D3. The interactive city map on the page was made using Nearmap and the Nearmap API. Beyond the visuals, the page also uses python scrapers that grabs information from a google sheet where we tracked the growth of the virus across California. This scraper was able to easily update our page through just a few terminal commands.</p>
+					<h2 data-aos="fade-right" class = "overflow-hide">Navigation</h2>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<h3>Multiple dashboards</h3>
+						<p>the project initially started as one unified dashboard. However, we quickly found that all of our daily users demanded to know different things - some were only concerned with their own county to understand the situation in their locale. Others were only concerned about the vaccine distribution or testing.</p>
+
+						<p>Thus, the main dashboard was seperated into <span>over 67 dashboards to get the right information to the right users.</span> The main dashboard only contained a high-level set of information. If users wanted specific details, they could reference any of the other dashboards instead of having to dig into piles of data.</p>
+						<img style="max-width: 800px;margin:30px auto;display:block;" class = "desktop-only" alt = "The strusture of all the dashboards is depicted showing that the main dashboard connects to either county-level dashboards or other types of dashboards" src = "../images/projects/coronavirus/structure-desktop.jpg">
+						<img style="max-width: 800px;margin:30px auto;display:block;" class = "mobile-only" alt = "The strusture of all the dashboards is depicted showing that the main dashboard connects to either county-level dashboards or other types of dashboards" src = "../images/projects/coronavirus/structure-mobile.jpg">
+					</div>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<p>All the dashboards were linked to eachother via a module at the top and bottom of each page </p>
+						<div class = "flex">
+							<div class = "inner">
+								<h4>Top Navigation module</h4>
+								<ul>
+									<li>Showed only what was most important about the current dashboard.</li>
+									<li>Called out most popular dashboards</li>
+									<li>Hid links other dashboards but allowed user to expand and explore.</li>
+								</ul>
+								<img style="max-width: 400px;margin:auto;display:block;" src = "../images/projects/coronavirus/whatWeKnow.png">
+							</div>
+							<div class = "text">
+								<h4>Bottom of page</h4>
+								<ul>
+									<li>Prevented users from having to scroll back up.</li>
+									<li>Was a better place to list out all dashboards</li>
+								</ul>
+								<img style="max-width: 400px;margin:30px auto;display:block;" src = "../images/projects/coronavirus/endOfPage.png">
+							</div>
 						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<h3 style = "color:white;">Continued</h3>
-							
-							<p>This page was updating at a minimum about 4 times a day from publishing in March until now. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle.</p>
-							
+					</div>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<h3>Long pages</h3>
+						<p>The dashboards were long webpages pages and users were only interested in one or two pieces of specific data on the page. Both mobile and desktop had to be easily navigatable.</p>
+						<p>The top of each dashboard contained a list of all the sections on that page. The list was kept simple without confusing logos or colors.</p>
+						<div class = "flex">
+							<div class = "inner">
+								<h4>Desktop navigation at the top of the page</h4>
+								<img style="margin:auto;display:block;" src = "../images/projects/coronavirus/desktop-top-nav.png">
+							</div>
+							<div class = "text">
+								<h4>Mobile</h4>
+								<img style="max-width: 400px;margin:30px auto;display:block;" src = "../images/projects/coronavirus/mobile-top-nav.png">
+							</div>
+						</div>
+						<p>When the user scrolled passed this navigation menu, they still needed an easy way to get back to it. This was an easy problem on desktop when the screen is big enough to accomodate a sticky menu. However, it was a problem on mobile where the screen had very little real estate to squander. I went through a variety of iterations trying to find the menu that was the least in-the-way but also the most conducive to helping users easily jump thoughout the page.
+						</p>
+
+						<div class = "flex">
+							<div class = "inner">
+								<p>Dropdown menu</p>
+								<img style="margin:auto;display:block;" src = "../images/projects/coronavirus/mobileNavSketch.jpg">
+							</div>
+							<div class = "inner">
+								<p>Single button</p>
+								<img style="margin:auto;display:block;" src = "../images/projects/coronavirus/mobileNavSketch2.jpg">
+							</div>
+							<div class = "inner">
+								<p>Single icon</p>
+								<img style="margin:auto;display:block;" src = "../images/projects/coronavirus/mobileNavSketch4.jpg">
+							</div>
+							<div class = "inner">
+								<p>All sections visible</p>
+								<img style="margin:auto;display:block;" src = "../images/projects/coronavirus/mobileNavSketch3.jpg">
+							</div>
+						</div>
+						<div>
+							<p>Eventually, I decided to hide all the menu options altogether because most users knew exactly where they wanted to go and weren't likely to use the top nav. Thus, we chose a design that kept it out of the way until needed.</p>
+							<img style="border:1px solid grey; max-width:400px;margin:auto;display:block;" src = "../images/projects/coronavirus/mobileNav.gif">
+							<p>On desktop, hiding the navigation was not needed.</p>
+							<img style="border:1px solid grey; max-width:800px;margin:auto;display:block;" src = "../images/projects/coronavirus/desktopNav.png">
+						</div>
+ 
+					</div>
+					<h2 data-aos="fade-right" class = "overflow-hide">Voice & Tone</h2>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<p>The dashboard had to be <span>serious but not alarming. Stoic but not robotic.</span> There had to be a certain level of empathy since this was information that was changing people's lives in new, scary, and traumatic ways.</p>
+						<div class = "flex" style="align-items: center; justify-content: center;">
+							<div class = "inner">
+								<p>As mentioned before, one of the ways I did this was to pull back from using the yellow and orange color pallette of my original design. </p>
+							</div>
+							<div class = "text">
+								<img src = "../images/projects/coronavirus/image2.jpg">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -163,19 +295,21 @@
 			<!-- this is where the goals are specified -->
 			<div class = "design-considerations darkBG">
 				<div data-aos="fade-down" class = "contain overflow-hide">
-					<h2>Design considerations</h2>
+					<h2>Implementation</h2>
+					<p>To create the graphics on the page, we used a variety of javascript libraries -- most notably D3. The interactive city map on the page was made using Nearmap and the Nearmap API. Beyond the visuals, the page also uses python scrapers that grabs information from a google sheet where we tracked the growth of the virus across California. This scraper was able to easily update our page through just a few terminal commands.</p>
+					<p>This page was updating at a minimum about 4 times a day from publishing in March until now. To do this, we set up an extensive backend to the webpage including scrapers that helped us scrape government websites for the latest numbers on the virus, manual scheduled to review these sites daily, and also an unprecedented effort to combine this tracking effort with newsrooms across the state including the San Francisco Chronicle.</p>
 					<div class = "flex">
 						<div  class = "solution inner">
-							<h3>Engaging data visualizations</h3>
-							<p>Large amounts of data needed to be presented clear ways that allowed readers to quickly scan the dashboard.</p>
+							<h3>Tools</h3>
+							<p>Python, Javascript, Node.js, Django, Mapbox</p>
 						</div>
 						<div  class = "stakeholders inner">
-							<h3>Responsive design</h3>
-							<p>The page needed to perform well on all platforms, since over 40% of the Times' audience at the time used mobile devices to access the site.</p>
+							<h3>Software</h3>
+							<p>Jupyter notebook, Qgis, Adobe XD, Figma, Google sheets</p>
 						</div>
 						<div  class = "problem-space inner">
-							<h3>Consistent visuals across pages</h3>
-							<p>All 50+ dashboards needed to follow the same visual langage that also resonated with the brand image of the Times.</p>
+							<h3>Skills</h3>
+							<p>Data Analysis, research, coding, prototyping</p>
 						</div>
 					</div>
 				</div>
@@ -187,12 +321,8 @@
 			<!-- Here is where we explain process -->
 			<div class = "the-process">
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">Design process</h2>
-					<h3>Engaging data visualizations</h3>
-
-					<h3>Responsive design</h3>
-
-					<h3>Consistent visuals across pages</h3>
+					<h2 data-aos="fade-right" class = "overflow-hide">Branding</h2>
+					
 				</div>
 			</div>
 
