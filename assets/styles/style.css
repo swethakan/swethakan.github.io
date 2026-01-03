@@ -1,3 +1,9 @@
+.odor-mean-chey-regular {
+  font-family: "Odor Mean Chey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   width: 100%;
   overflow-x: hidden;
@@ -62,16 +68,14 @@ body {
 body p {
   line-height: 1.55;
 }
-body .topper {
-  height: 100vh;
-}
+
 @media only screen and (max-width: 700px) {
   body .topper {
     height: auto;
   }
 }
 body #container {
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   margin: auto;
 }
@@ -121,32 +125,35 @@ body #about.flex {
   align-items: center;
 }
 body #about {
-  max-width: 1200px;
   margin: auto;
-  width: 100%;
-  vertical-align: middle;
+  display: inline;
+  width: auto;
+  text-align: center;
+  
 }
 body #about h1 {
+  font-family: "Abril Fatface";
   font-weight: bold;
   font-size: 40px;
   line-height: 54px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
+  color: white;
 }
 body #about p {
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
-  line-height: 25px;
-  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C43805;
   text-align: left;
 }
 body #about p.hi {
   text-align: center;
 }
 body #about a {
-  color: black;
+  color: #033CFD;
 }
 body #about span {
   padding: 0px 10px;
@@ -173,19 +180,22 @@ body #about .links a:hover {
 }
 body #about .pronounce {
   font-weight: normal;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
-  color: #7D7D7D;
+  color: #FFFFFF;
   margin-top: 0px;
 }
 body #about .image {
-  padding: 30px;
   height: auto;
+  margin-bottom: -149px;
+  margin-top: 80px;
+  z-index: 0;
 }
 body #about .image img {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
+  z-index: 0;
 }
 @media only screen and (max-width: 700px) {
   body #about .image {
@@ -196,20 +206,36 @@ body #about .image img {
   }
 }
 body #about .text {
-  max-width: 500px;
+  max-width: 600px;
   width: 100%;
 }
-body #portfolio h2 {
+body #portfolio h1 {
   text-align: center;
-  padding: 30px;
+  color: #033CFD;
+  font-size: 40px;
+  font-family: "Abril Fatface";
+  margin-top: 0px;
+  margin-bottom: 24px;
+
 }
+body #contact h1{  
+  text-align: center;
+  color: #033CFD;
+  font-size: 40px;
+  font-family: "Abril Fatface";
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
 body #portfolio ul {
   list-style-type: none;
+  padding-top: 80px;
+  padding-left: 0px;
+  width: 100%;
 }
 body #portfolio .template-Project {
-  width: 330px;
-  padding: 5px;
-  margin-bottom: 50px;
+  width: auto;
+  margin-bottom: 80px;
   background-color: white;
 }
 body #portfolio .template-Project p.award {
@@ -222,12 +248,39 @@ body #portfolio .template-Project .pulitzer {
   margin-top: -20px;
 }
 body #portfolio .template-Project .text {
-  display: inline-block;
-  width: 256px;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center; /* Centers vertically */
+  justify-content: center; 
+  margin:40px 0px;
+  border-style: solid;
+  border-color: #FD4E0F;
+  border-width: 11px 0;
+}
+
+body #portfolio .template-Project .content{
+  display: block;
+  margin-bottom: 32px;
+
+  .tag{
+    background-color: #FFDF8D;
+    color: #754807;
+    padding:4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+  }
+}
+.template-Project h3{
+  font-family: "Odor Mean Chey", serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #C43805;
+  font-weight: 400;
 }
 body #portfolio .template-Project img {
-  width: 100%;
-  box-shadow: 2px 3px 15px #d3d1d1;
+  width: 400px;
+  margin-right: 40px;
 }
 body #portfolio .template-Project img.award {
   width: 20px;
@@ -239,14 +292,22 @@ body #portfolio .template-Project img.award {
 }
 body #portfolio .template-Project p {
   color: grey;
-  margin-top: 8px;
+  margin-top:0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 body #portfolio .template-Project a {
-  color: black;
-  text-decoration: none;
+  background-color: #033CFD;
+  color: white;
+  padding: 16px;
+  text-decoration-line: none;
+  border-radius: 8px;
+  i{
+    padding-left: 8px;
+  }
 }
-body #portfolio .template-Project:hover {
-  background-color: #f8efe6;
+body #portfolio .template-Project a:hover {
+  background-color: #132870;
 }
 body #portfolio .template-Project:hover h3 {
   color: #693212;
@@ -257,11 +318,6 @@ body #portfolio .template-Project:hover p {
 body #portfolio .flex {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  padding: 0;
-  margin: auto;
-  width: 85%;
 }
 body #portfolio .flex .inner {
   flex-direction: row;
@@ -310,9 +366,9 @@ body #contact .flex {
   display: flex;
 }
 body #contact .icon {
-  width: 40px;
-  height: 40px;
-  margin: 10px 20px 5px 20px;
+  width: 80px;
+  height: 80px;
+  margin: 16px 24px 8px 24px;
   border: 1px solid rgba(0, 0, 0, 0);
 }
 body #contact .icon:hover {
@@ -380,13 +436,32 @@ body .image-caption {
   margin-top: 30px;
 }
 
-.topper {
-  height: 100vh;
+.squiggly-line {
   width: 100%;
+  height: 10px; /* Adjust height for thickness */
+  background: repeating-conic-gradient(from -45deg, #000 0% 25%, transparent 0% 50%) 
+              0 0 / 10px 10px repeat-x;
+}
+
+.topper {
+  height: auto;
+  width: 100%;
+}
+.topper .blue{
+  background-color: #033CFD;
+  margin:0px 77px 0px 116px;
+  z-index: 2;
+  padding:8px 0px;
+}
+.topper .inner{
+  z-index: 2;
+  position: relative;
+  margin:auto;
 }
 .topper h1 {
   font-size: 50px;
 }
+
 @media only screen and (max-width: 700px) {
   .topper h1 {
     font-size: 30px;
