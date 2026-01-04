@@ -4,9 +4,147 @@
   font-style: normal;
 }
 
+.userAvatar{
+  width:150px;
+  height:150px;
+  margin-right:60px;
+}
+#case-nav {
+    transition: height 0.3s ease, padding 0.3s ease;
+    height: 100px; /* Initial height */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    background-color: white;
+    img{
+      width:40px;
+      height: auto;
+    }
+
+    h3{
+      margin: 0px;
+      padding-right: 8px;
+    }
+    p{
+      margin: 0px;
+    }
+}
+
+#case-nav.stuck {
+    position: fixed;
+    align-items: center;
+    padding:8px 24px;
+    margin: 80px 24px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 4px 4px #033CFD;
+    height: auto; /* Reduced height when stuck */
+    /* Add other styles like box-shadow here */
+}
+
+.userFindings{
+  h4{
+    color: #FD4E0F;
+    margin-bottom: 0px;
+  }
+  h3{
+    color: white;
+    margin-bottom: 0px;
+  }
+}
+.threeImages {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 80px;
+  img{
+    width: 100%;
+  }
+}
+.comparison{
+  margin-top:40px;
+
+  h4{
+    font-size: 18px;
+  }
+  ol {
+    counter-reset:item; 
+    margin:0; 
+    padding-left:0;
+  }
+  ol>li {
+    counter-increment:item; 
+    list-style:none inside; 
+    overflow: hidden;
+    font-size: 14px !important;
+    line-height: 1.3;
+    display: flex;
+    align-items: center; 
+    height: auto;
+    margin-bottom: 12px;
+  }
+  ol li:before {
+    content:counter(item) ;
+    margin-right: 8px;
+    padding: 8px;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #FD4E0F;
+    color: #fff;
+    font-weight: 600;
+    text-align: center; 
+    float: left;
+  }
+}
+
 html {
   width: 100%;
   overflow-x: hidden;
+}
+.darkBG{
+  background-color: #0A1743;
+  color:white;
+}
+.the-journey{
+  justify-content: center;
+  display: block;
+  padding:80px;
+  .width{
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center; 
+    margin:auto;
+    display: flex;
+  }
+
+  h1{
+    text-align: center;
+    font-family: "Abril Fatface";
+    margin-left: 8px;
+    img{
+      margin-right:8px;
+    }
+  }
+  h2{
+    display: flex;
+    font-size: 1.2em;
+  }
+  .inner{
+    margin-right: 32px;
+    img{
+      margin-right:8px;
+    }
+  }
 }
 
 .result {
@@ -22,6 +160,11 @@ html {
   .topper p {
     margin-right: 10px;
     margin-left: 10px;
+  }
+  .the-journey{
+    .width{
+     display: block;
+    }
   }
 }
 
@@ -64,6 +207,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: #F4F2ED;
 }
 body p {
   line-height: 1.55;
@@ -236,7 +380,7 @@ body #portfolio ul {
 body #portfolio .template-Project {
   width: auto;
   margin-bottom: 80px;
-  background-color: white;
+  
 }
 body #portfolio .template-Project p.award {
   display: inline-block;
@@ -278,6 +422,14 @@ body #portfolio .template-Project .content{
   color: #C43805;
   font-weight: 400;
 }
+
+h3{
+  font-family: "Odor Mean Chey", serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
 body #portfolio .template-Project img {
   width: 400px;
   margin-right: 40px;
@@ -378,15 +530,33 @@ body #contact .icon:hover {
 body .contain {
   max-width: 1200px;
   margin: auto;
-  border-left: 1px solid grey;
+  border-left: 4px solid #033CFD;
   padding-left: 40px;
   padding-bottom: 80px;
+
+  .title{
+    margin-bottom: 40px;
+  }
+  h1{
+    font-family: "Abril Fatface";
+    font-size: 46px;
+    line-height: 34px;
+    color: #E94307;
+     margin-bottom: 16px;
+     margin-top:80px;
+  }
+  h2{
+    font-family: "Odor Mean Chey", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 16px;
+  }
 }
-body .contain h2::before {
+body .contain h1::before {
   width: 30px;
   height: 30px;
   display: inline-block;
-  background-color: #FFB84D;
+  background-color: #FD4E0F;
   content: "";
   border-radius: 50px;
   position: absolute;
@@ -452,6 +622,8 @@ body .image-caption {
   margin:0px 77px 0px 116px;
   z-index: 2;
   padding:8px 0px;
+  font-family: "Abril Fatface";
+  font-weight: 400;
 }
 .topper .inner{
   z-index: 2;
@@ -463,8 +635,67 @@ body .image-caption {
 }
 
 @media only screen and (max-width: 700px) {
-  .topper h1 {
-    font-size: 30px;
+  .topper 
+    {
+      h1 {
+      font-size: 30px;
+      }
+    }
+  body #contact .icon{
+    width:24px;
+    height: auto;
+    margin: 8px 24px 8px 24px;
+  }
+  #caseStudy{
+    width: auto;
+
+    .flex{
+      width:auto;
+    }
+    .text{
+      padding: 0px 24px;
+    }
+    .blue{
+      margin:-30px 0px 0px 0px!important;
+      h1{
+        font-size: 3.7rem;
+      }
+      p{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+    }
+    .button{
+      margin-top:0px!important;
+    }
+  }
+  .the-journey{
+    padding:24px;
+    .inner{
+      margin-top:40px;
+    }
+    .width{
+      width: 100%;
+    }
+  }
+  .threeImages{
+    display: block;
+
+    .inside{
+      margin-top: 40px;
+    }
+  }
+  .comparison{
+    .inside{
+      margin-left: 0px!important;
+    }
+  }
+  .userAvatar{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+
   }
 }
 .topper .center {
@@ -679,7 +910,7 @@ body .image-caption {
   margin: auto;
   width: 100%;
   padding-left: 40px;
-  border-left: 1px solid grey;
+  border-left: 4px solid #033CFD;
 }
 @media only screen and (max-width: 700px) {
   .the-results .line {
@@ -734,7 +965,94 @@ body .image-caption {
     width: 100%;
   }
 }
+#caseStudy{
+  max-width: 900px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin: auto;
+  margin-top:120px;
+  margin-bottom: 120px;
+  .inner{
+    max-width:700px;
+  }
+  .text{
+    margin: auto;
+    p{
+      margin:0px;
+    }
+    h3{
+      margin-top:24px;
+      margin-bottom:8px;
+      color: #C43805;
+    }
+    .content{
+      margin-bottom: 32px;
+    }
+    .only-button{
+      width:auto;
+      justify-content: center;
+      display: flex;
+      i{margin-left: 8px;}
+    }
+    .button{
+      background-color: #033CFD;
+      color: white;
+      padding: 12px;
+      margin-top: 32px;
+      text-decoration-line: none;
+      border-radius: 8px;
+    }
+  }
+  .blue{
+    margin: -40px 57px 0px 65px;
+    z-index: 2;
+    position: relative;
+    padding: 24px 24px;
+    color: white;
+    p{
+      margin:0px;
+    }
+    h1{
+      margin:0px;
+      padding:0px;
+    }
+  }
+  img{
+    width: 100%;
+    z-index: 0;
+    position: relative;
+  }
 
+}
+
+.flashcards{
+  .series{
+    gap:40px;
+    align-items: center;
+
+    p{
+      width:480px;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .contain {
+    .section{
+      div{
+        margin-bottom: 40px;
+      }
+      h3{
+        font-family: "Odor Mean Chey";
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px; /* 161.765% */
+      }
+    }
+  }
+}
 .ocean_game .topper {
   background-image: url("../images/projects/beaches/topper/desktop.jpg");
   background-size: cover;
@@ -1363,11 +1681,11 @@ body .image-caption {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 700px) {
+/*@media only screen and (max-width: 700px) {
   .project .topper {
     height: 100vh;
   }
-}
+}*/
 
 .connect-down, .connect-up {
   height: 90px !important;

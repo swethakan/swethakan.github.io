@@ -1,19 +1,28 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Swetha Kannan's portfolio - Ocean Game</title>
+		<script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+		<script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
+		<title>Swetha Kannan's portfolio - Flashcards</title>
 		<meta name="description" content="Swetha Kannan UX UI Designer Portfolio - Ocean Game">
 		<meta name="keywords" content="UX UI Designer Portfolio indian woman user experience human-computer interaction ocean game california">
 		<!-- bringing in the style sheet -->
 		<link rel="stylesheet" href="../styles/style.css">
+		<link rel="stylesheet" href="../styles/embla.css">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 		<link rel="icon" href="../images/favicon.png">
+		<!-- Linking all icons from fontawesome -->
+		<script src="https://kit.fontawesome.com/5b89b587be.js" crossorigin="anonymous"></script>
+
 
 		<!-- Transfering in a google font Open Sans, Free for all use -->
 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+		<link href="https://fonts.google.com/share?selection.family=Abril+Fatface" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap" rel="stylesheet">
+
 		
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -29,9 +38,9 @@
 			<a href="../../index.html">About</a>
 		</nav>
 		<!-- This is our 'heroic' topper -->
-		<div class = "topper">
+		<div class = "topper" id="caseStudy">
 			<div class = "flex">
-				<div class = "inner"><img src = "../images/projects/flashcards/topper/desktop.png" alt= "illustrated image showing some franklincovey flashcards with bright shapes around it">
+				<div class = "inner"><img src = "../images/projects/flashcards/topper/mobile.png" alt= "illustrated image showing some franklincovey flashcards with bright shapes around it">
 					<div class = "blue">
 						<p>Adding </p>
 						<h1>FLASHCARDS</h1>
@@ -41,145 +50,386 @@
 				<div class="text">
 					<div class="content">
 						<div>
-							<span class= "tag"><b>Year:</b>2024</span>
-							<span class= "tag"><b>Role:</b>Sole Product Designer</span>
+							<h3>Context</h3>
+							<p>Franklincovey sells leadership courses to companies to complete online or  in-person. Physical courses are much more popular due to the materials learners receive like flashcards. In this feature we moved these physical flashcard onto our digital platform</p>
 						</div>
-						<p>Franklincovey is known for in-person leadership training where learners canuse flashcaards to review different concepts. How do we replicate that experience digitally? </p>
+						<div>
+							<h3>My Role</h3>
+							<p>I was the sole product designer and researcher. I worked with my product manager to decide how this feature will function and appear.</p>
+						</div>
+						<div>
+							<h3>Year</h3>
+							<p>2024</p>
+						</div>
+					</div>
+					<div class = "only-button">
 						<a class = "button" href="./assets/layout/flashcards.html">
-						See Case Study<i class="fa-solid fa-arrow-up-right-from-square"></i>
+						See Prototype<i class="fa-solid fa-arrow-up-right-from-square"></i>
 						</a>
 						</div>
 					</div>
 				</div>
-		</div>
+			</div>
 
 			<!-- Here is where the actual content of the page should go -->
-			<div class = "high-level-summary">
-					<h2 data-aos="fade">Overview</h2>
-					<div class = "flex">
-						<div data-aos="fade-right" class = "inner image desktop-only overflow-hide">
-							<img alt = "view of the webpage on mobile" src = "../images/projects/sw_women/mobile/mobile1.jpg">
-						</div>
-						<div data-aos="fade-left" class = "inner text overflow-hide">
-							<ul>
-								<li><label>My role:</label>UX Design, data visualization, research, animation, illustration</li>
-								<li><label>Team:</label>Designer, reporters, developers</li>
-								<li><label>Year:</label>2019</li>
-								<li><label>Stakeholders:</label>Los Angeles Times</li>
-								<li><label>Skills:</label>Reporting<br>Data Visualization<br>Hi-fi Mock-up<br>Mid-fi Mock-up</li>
-							</ul>
-						</div>
-					</div>
-			</div>
-
-			<!-- Here is where first bar for the problem space goes-->
-			<div class = "the-deets darkBG">
-				<div class = "flex">
-					<div data-aos="fade-down" class = "stakeholders inner">
-						<h2>Users</h2>
-						<h3>Readers of the <nobr>Los Angeles Times</nobr></h3>
-						<p>Star Wars: The Rise of Skywalker was going to end the latest trilogy in the popular “Star Wars” series. It was important for the Times to do what we could to cover the even before the release of the film.</p>
-					</div>
-					<div data-aos="fade-up" class = "problem-space inner">
-						<h2>Problem Space</h2>
-						<h3>The first female protagonist</h3>
-						<p>We went through brainstorming sessions to figure out what we wanted to explore on the page. Ultimately, we settled on comparing Rey, the first female protagonist in the series, to other leads.</p>
-					</div>
-					<div data-aos="fade-down" class = "solution inner">
-						<h2>Solution</h2>
-						<h3>Quantify dialogue</h3>
-						<p>To make a reasonable comparison, we decided to explore how script writers handled Rey. We did this by counting words characters spoke, how and what they told each other, and more.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="mobile-only connect-down"></div>
-			<!-- Here is where we understand the problem space -->
-			<div class = "understand-problem-space">
-				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">Understanding the problem Space</h2>
-					<div data-aos="fade-right" class = "flex overflow-hide">
-						<div class = "image inner">
-							<img alt = "Screenshot of a star wars movie still. shows Rey and Chewie on a bike." src = "../images/projects/sw_women/image1.png">
-							<p class = "image-caption">Daisy Ridley performs as Rey in “Star Wars: Rise of Skywalker” (Lucasfilm/Disney/Sky)</p>
-						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">In 2019, Star Wars was set to release their latest film that would end the trilogy which started with Star Wars: The Force Awakens. As the first female protagonist in the series, we decided to look at how scriptwriters have handled her trilogy as compared to the men.</p>
-							<p>The basic flow of this project was first creating a purpose for our information - why exactly were we creating data based on words spoken? Is it fair to use this as a measure for Rey's worth in the trilogy? Afterall, there are different variables that can affect how much a character speaks. To explain this, a good structure to the peace was imperative - starting from a wider view of the star wars universe in general, to just the women, and finally, to Rey herself. Our staff writer, Tracy Brown was able to smoothly write this story in a way that made everything come together seamlessly.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="mobile-only connect-up"></div>
-			<!-- this is where the goals are specified -->
-			<div class = "goals darkBG">
-				<div data-aos="fade-right" class = "contain overflow-hide">
-					<h2>Goals</h2>
-					<p>We wanted to show how Rey compares to Luke and Anakin as the first female protagonist during a time when the #metoo movement was at the forefront of everyone’s minds.</p>
-					<p>To do this, we were tasked with using the character’s dialougues with others as a point of comparison. </p>
-				</div>
-			</div>
-
-			<div class="mobile-only connect-down"></div>
-			<!-- Here is where we explain process -->
-			<div class = "the-process">
-				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">The process</h2>
-					<div class = "flex">
-						<div data-aos="fade-right" class = "image inner overflow-hide">
-							<img alt = "Drafts show placement of where text will go and what data will be used to back up the text. " src = "../images/projects/sw_women/image2.jpg">
-							<p class = "image-caption">Boards made in Adobe XD show initial mid-fidelity mock-ups (Swetha Kannan / Los Angeles Times)</p>
-							<img alt = "Excel sheet shows how we seperated every line in the films and pairred it with a character." src = "../images/projects/sw_women/image3.jpg">
-							<p class = "image-caption">We spent hours figuring out which characters spoke the most and thus needed to be included on the page (Swetha Kannan / Los Angeles Times)</p>
-						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">The basic flow of this project was first creating a purpose for our information - why exactly were we creating data based on words spoken? Is it fair to use this as a measure for Rey's worth in the trilogy? Afterall, there are different variables that can affect how much a character speaks. To explain this, a good structure to the peace was imperative - starting from a wider view of the star wars universe in general, to just the women, and finally, to Rey herself. Our staff writer, Tracy Brown was able to smoothly write this story in a way that made everything come together seamlessly.</p>
-							<p>Reporting this project was a monumental team effort. I worked on a 3-person team and we each took a turn re-watching all 8 movies of the Star Wars films. As we watched, we fact-checked the scripts we had for each movie, counted each beep and boop R2D2 and other robots made and counted all of Chewie's groans. As we worked we faced important questions that required serious decision-making: When do we count Anakin's lines as his own and when do we count it as Darth Vader? Should Padme's lines be attributed to her even if it is Sabe, dressed as the queen, actually speaking?</p>
-							<p>We needed a good way to represent each character in our design (because a huge visualiation we intended to create was a relationship graph which showed almost 50+ characters) and thus decided to draw them ourselves. We went through a series of mid-fidelity design mock-ups before we landed on what was eventually published.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class="mobile-only connect-up"></div>
-			<!-- this is where the goals are specified -->
-			<div class = "design-considerations darkBG">
-				<div data-aos="fade-down" class = "contain overflow-hide">
-					<h2>Design considerations</h2>
-					<div class = "flex">
-						<div  class = "solution inner">
-							<h3>Engaging data visualizations</h3>
-							<p>The data needed to be presented in easy to understand ways that also guided readers through a story.</p>
-						</div>
-						<div  class = "stakeholders inner">
-							<h3>Responsive design</h3>
-							<p>The page needed to perform well on all platforms, since over 40% of the Times' audience at the time used mobile devices to access the site.</p>
-						</div>
-						<div  class = "problem-space inner">
-							<h3>Character visuals</h3>
-							<p>In order to talk about a variety of characters, we needed visuals that represented everyone.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			
 
+			<!-- Here is where first bar for the problem space goes-->
+
+			<div class = "the-journey darkBG">
+				<h1><img src = "../images/personal icons/journey.png">The Journey</h1>
+				<div class = "flex width">
+					<div data-aos="fade-down" class = "inner">
+						<h2><img src = "../images/personal icons/journey1.png">Discover</h2>
+						<p>We used interviews, competitive analysis, and more to understand what parts of the physical card experience needed to be replicated digitally to make this feature usable</p>
+					</div>
+					<div data-aos="fade-up" class = "inner">
+						<h2><img src = "../images/personal icons/journey2.png">Define</h2>
+						<p>We understood the needs of learners and class facilitators and set out to create an easily navigable card deck that combined 2 decks of cards for our most popular course</p>
+					</div>
+					<div data-aos="fade-down" class = "inner">
+						<h2><img src = "../images/personal icons/journey3.png">Ideate</h2>
+						<p>We configured the cards in different layouts, tested our favorite flows with more users, and landed on a finished feature for mobile and desktop</p>
+					</div>
+					<div data-aos="fade-up" class = "inner">
+						<h2><img src = "../images/personal icons/journey4.png">Deliver</h2>
+						<p>This feature was made for the release of our mobile app. It was released as part of a single course for v1, and, despite having a limited release, increased mobile adoption by 5%</p>
+					</div>
+				</div>
+				<img class= "width" src = "../images/projects/flashcards/journey.png">
+			</div>
+
+
+			<!-- <div id = "case-nav" class="flex">
+				<h3>Journey</h3>
+					
+						<img src="../images/nav1.svg">
+						<p>Discover</p>
+
+			</div>
+ -->
+
 			<div class="mobile-only connect-down"></div>
-			<!-- Here is where we explain process -->
-			<div class = "the-process">
+			
+			<img class = "desktop-only" style= "width:100%;" src = "../images/projects/flashcards/fill1.png">
+			<img class = "mobile-only" style= "width:100%;" src = "../images/projects/flashcards/mobile/fill1.png">
+
+
+			<!-- Here is where we understand the problem space -->
+			
+
+			<div class = "understand-problem-space">
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">Design process</h2>
-					<h3>Engaging data visualizations</h3>
-
-					<h3>Responsive design</h3>
-
-					<h3>Character visuals</h3>
+					<div class = "title">
+						<h1 data-aos="fade-right" class = "overflow-hide">DEFINE</h1>
+						<h2 data-aos="fade-right" class = "overflow-hide">Understanding why flashcards work physically and how they can work digitally</h2>
+					</div>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<h3>Interviewed 7 learners and 6 class facilitators</h3>
+						<div data-aos="fade-left" class = "overflow-hide">
+							<p class = "first">I scheduled 30-minute interviews with 7 FranklinCovey learners and 6 FranklinCovey Facilitators over the course of 2 weeks. We had a quick turnaround in this project (about 4 weeks from getting the product requirements to having to deliver designs to engineers) so I focused on asking questions in the first half of the interviews and testing prototypes in the second half.</p>
+						</div>
+						<div class = "image">
+							<img class = "desktop-only" alt = "" src = "../images/projects/flashcards/image1.png">
+							<img class = "mobile-only" alt = "" src = "../images/projects/flashcards/mobile/image1.png">
+						</div>
+					</div>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<h3>Observed a live class</h3>
+						<div data-aos="fade-left" class = "overflow-hide">
+							<p class = "first">I sat in on a live facilitated course to observe how learners in one of our courses might use the cards during the session. This, along with our facilitator interviews, showed us that flashcards were not utilized as much during the class as we had originally predicted.</p>
+						</div>
+					</div>
+					<div data-aos="fade-right" class = "overflow-hide">
+						<h3>Analyzed how other platforms showcased cards</h3>
+						<div data-aos="fade-left" class = "overflow-hide">
+							<p class = "first">I scheduled 30-minute interviews with 7 FranklinCovey learners and 6 FranklinCovey Facilitators over the course of 2 weeks. We had a quick turnaround in this project (about 4 weeks from getting the product requirements to having to deliver designs to engineers) so I focused on asking questions in the first half of the interviews and testing prototypes in the second half.</p>
+						</div>
+						<div class="threeImages">
+							<div class ="inside">
+								<h4>Vocabulary</h4>
+								<img src = "../images/projects/flashcards/image2.png">
+							</div>
+							<div class ="inside">
+								<h4>Quizlet</h4>
+								<img alt = "" src = "../images/projects/flashcards/image3.png">
+							</div>
+							<div class ="inside">
+								<h4>Anki Pro</h4>
+								<img alt = "" src = "../images/projects/flashcards/image4.png">
+							</div>
+						</div>
+						<div class="comparison flex">
+							<div class ="inside">
+								<h4>Common Elements:</h4>
+								<ol>
+    								<li>List item number one has some text to go along with it.</li>
+    								<li>List item number two has some text to go along with it as well.</li>
+    								<li>List item number three has some text to go along with it too, what did you expect?</li>
+								</ol>
+							</div>
+							<div class ="inside" style = "margin-left:40px;">
+								<h4>Product Questions:</h4>
+								<ol>
+    								<li>List item number one has some text to go along with it.</li>
+    								<li>List item number two has some text to go along with it as well.</li>
+    								<li>List item number three has some text to go along with it too, what did you expect?</li>
+								</ol>
+							</div>
+							
+						</div>
+					</div>
 				</div>
 			</div>
+
+			<div class="mobile-only connect-up"></div>
+			<!-- this is where the goals are specified -->
+			<div class = "darkBG">
+				<div data-aos="fade-right" class = "contain overflow-hide">
+					<div class = "title">
+						<h1 data-aos="fade-right" class = "overflow-hide">DISCOVER</h1>
+						<h2 data-aos="fade-right" class = "overflow-hide">Understand what people <i>actually</i> need from this feature</h2>
+					</div>
+					<div class = "flex" style = "justify-content: center;align-items: center;">
+						<img class = "userAvatar" src = "../images/projects/flashcards/image5.png">
+						<div class = "userFindings">
+							<h3>Learner Needs</h3>
+							<div class = "flex" style = "gap: 60px;justify-content: center;">
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img class = "desktop-only" style= "display:flex; align-items:center; width:80%;margin:40px auto;" src="../images/projects/flashcards/chart1.svg">
+					<img class = "mobile-only" style= "display:flex; align-items:center; width:100%;margin:24px auto;" src="../images/projects/flashcards/mobile/Chart1.svg">
+
+					<div style="display:flex; justify-content: center;"><svg style="margin-top: 80px;margin-bottom: 80px;" width="400" height="20" viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg">
+			  			<!-- M = Move to Start, Q = Initial Curve, T = Repeat Wave Pattern -->
+			  			<path d="M 0 10 
+			           Q 4 2 12.5 2 
+			           T 25 10 T 37.5 10 T 50 10 T 62.5 10 T 75 10 T 87.5 10 T 100 10 
+			           T 112.5 10 T 125 10 T 137.5 10 T 150 10 T 162.5 10 T 175 10 T 187.5 10 T 200 10 
+			           T 212.5 10 T 225 10 T 237.5 10 T 250 10 T 262.5 10 T 275 10 T 287.5 10 T 300 10 
+			           T 312.5 10 T 325 10 T 337.5 10 T 350 10 T 362.5 10 T 375 10 T 387.5 10 T 400 10" 
+			        	stroke="#FFEEDA" fill="transparent" stroke-width="3" />
+					</svg></div>
+
+
+
+					<div class = "flex" style = "justify-content: center;align-items: center;">
+						<img class = "userAvatar" src = "../images/projects/flashcards/image6.png">
+						<div class = "userFindings">
+							<h3>Facilitator Needs</h3>
+							<div class = "flex" style = "gap: 60px;justify-content: center;">
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<img class = "desktop-only" style= "display:flex; align-items:center; width:80%;margin:40px auto;" src="../images/projects/flashcards/chart2.svg">
+					<img class = "mobile-only" style= "display:flex; align-items:center; width:100%;margin:24px auto;" src="../images/projects/flashcards/mobile/chart2.svg">
+				
+					<div style="display:flex; justify-content: center;"><svg style="margin-top: 80px;margin-bottom: 80px;" width="400" height="20" viewBox="0 0 400 20" xmlns="http://www.w3.org/2000/svg">
+			  			<!-- M = Move to Start, Q = Initial Curve, T = Repeat Wave Pattern -->
+			  			<path d="M 0 10 
+			           Q 4 2 12.5 2 
+			           T 25 10 T 37.5 10 T 50 10 T 62.5 10 T 75 10 T 87.5 10 T 100 10 
+			           T 112.5 10 T 125 10 T 137.5 10 T 150 10 T 162.5 10 T 175 10 T 187.5 10 T 200 10 
+			           T 212.5 10 T 225 10 T 237.5 10 T 250 10 T 262.5 10 T 275 10 T 287.5 10 T 300 10 
+			           T 312.5 10 T 325 10 T 337.5 10 T 350 10 T 362.5 10 T 375 10 T 387.5 10 T 400 10" 
+			        	stroke="#FFEEDA" fill="transparent" stroke-width="3" />
+					</svg></div>
+
+					<div>
+						<h3>Goal: Combine 2 card decks for our upcoming course that are easily reviewable</h3>
+						<p>After we defined our user needs we narrowed down the scope of the project both for business needs and to get the first version out the door in time for the launch of our mobile app. This feature was going to be a core part of the mobile platform and was intended to be a major draw for users to go ahead and download the app.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="mobile-only connect-down"></div>
+			<!-- Here is where we explain process -->
+			<div>
+				<div data-aos="fade-right" class = "contain overflow-hide">
+					<div class = "title">
+						<h1 data-aos="fade-right" class = "overflow-hide">IDEATION</h1>
+						<h2 data-aos="fade-right" class = "overflow-hide">Exploring navigation, visual feedback, etc.</h2>
+					</div>
+					<div data-aos="fade-right" class="section">
+						<div data-aos="fade-right">
+							<h3 style = "margin:0px;">Challenges</h3>
+							<div class = "threeImages" style="text-align: left;">
+								<div> 
+									<h4 style = "margin-bottom:8px;">Easy navigation</h4>
+									<p style = "margin-top:0px;">The cards came in 2 separate decks that had interrelated concepts. Users should be able to navigate between decks and concepts easily</p>
+								</div>
+								<div> 
+									<h4 style = "margin-bottom:8px;">Responsive design</h4>
+									<p style = "margin-top:0px;">The cards needed to primarily look great on mobile but also needed to be accessible on desktop since that was where a majority of learners were</p>
+								</div>
+								<div> 
+									<h4 style = "margin-bottom:8px;">Accessibility</h4>
+									<p style = "margin-top:0px;">The cards needed to be easily accessible outside of courses and during them. They also needed to have features that allow users to come back to specific concepts</p>
+								</div>
+							</div>
+						</div>
+						<div data-aos="fade-right">
+							<h3>Navigating between 2 decks of cards</h3>
+							
+							<div class = "flex series">
+								<p>
+									The first digital cards was going to accompany the re-release of our most popular course, The 7 Habits of Highly Effective Leaders. This course had 2 card decks; one that reviewed the concepts and one that provided practice 
+								</p>
+								<img class = "desktop-only" src="../images/projects/flashcards/chart3.svg">
+								<img class = "mobile-only" src="../images/projects/flashcards/mobile/chart3.svg">
+							</div>
+							<div class = "flex series">
+								<p>
+									Each deck had cards that included a front and back. This doubled the amount of information needed to show on the digital platform
+								</p>
+								<img class = "desktop-only" src="../images/projects/flashcards/chart4.svg">
+								<img class = "mobile-only" src="../images/projects/flashcards/mobile/chart4.svg">
+							</div>
+							<div class = "flex series">
+								<p>
+									We choose to position the practice cards close by the concepts they reviewed since users needed to be able to access these cards alongside their concepts. They had no need for 2 individual decks
+								</p>
+								<img class = "desktop-only" src="../images/projects/flashcards/chart5.svg">
+								<img class = "mobile-only" src="../images/projects/flashcards/mobile/chart5.svg">
+							</div>
+							<div class = "flex series">
+								<p>
+									The most obvious choice that leaders at the company supported was a linear layout for the cards which users could navigate by swiping left or right
+								</p>
+								<img class = "desktop-only" src="../images/projects/flashcards/chart6.svg">
+								<img class = "mobile-only" src="../images/projects/flashcards/mobile/chart6.svg">
+							</div>
+							<div class = "flex series">
+								<p>
+									Instead, we decided to combine both the decks together and lay them out in what we termed a “2D carousel” which users could navigate by swiping up and down for practicing conceptsOR right and left for reviewing all concepts together.
+								</p>
+								<img class = "desktop-only" style = "width:80%;" src="../images/projects/flashcards/chart7.svg">
+								<img style = "margin-bottom: 24px;" class = "mobile-only" src="../images/projects/flashcards/mobile/chart7.svg">
+								<img style = "width:167px;" src="../images/projects/flashcards/gif1.gif">
+							</div>
+						</div>
+						
+						<div data-aos="fade-right">
+						<h3>Exploring navigation between cards</h3>
+						<section class=" desktop-only embla">
+					      <div class="embla__viewport">
+					        <div class="embla__container">
+					          <div class="embla__slide">
+					          	<p><b>Rough Drafts</b></p>
+					          	<img src="../images/projects/flashcards/chart8.svg">
+					          </div>
+					          <div class="embla__slide">
+					          	<p><b>“Table of cards” layout</b></p>
+					          	<img src="../images/projects/flashcards/chart9.svg">
+					          </div>
+					          <div class="embla__slide">
+					          	<p><b>Card overlay layout options</b></p>
+					          	<img src="../images/projects/flashcards/chart10.svg">
+					          </div>
+					        </div>
+					      </div>
+
+					      <div class="embla__controls">
+					        <div class="embla__buttons">
+					          <button class="embla__button embla__button--prev" type="button">
+					            <svg class="embla__button__svg" viewBox="0 0 532 532">
+					              <path
+					                fill="currentColor"
+					                d="M355.66 11.354c13.793-13.805 36.208-13.805 50.001 0 13.785 13.804 13.785 36.238 0 50.034L201.22 266l204.442 204.61c13.785 13.805 13.785 36.239 0 50.044-13.793 13.796-36.208 13.796-50.002 0a5994246.277 5994246.277 0 0 0-229.332-229.454 35.065 35.065 0 0 1-10.326-25.126c0-9.2 3.393-18.26 10.326-25.2C172.192 194.973 332.731 34.31 355.66 11.354Z"
+					              ></path>
+					            </svg>
+					          </button>
+
+					          <button class="embla__button embla__button--next" type="button">
+					            <svg class="embla__button__svg" viewBox="0 0 532 532">
+					              <path
+					                fill="currentColor"
+					                d="M176.34 520.646c-13.793 13.805-36.208 13.805-50.001 0-13.785-13.804-13.785-36.238 0-50.034L330.78 266 126.34 61.391c-13.785-13.805-13.785-36.239 0-50.044 13.793-13.796 36.208-13.796 50.002 0 22.928 22.947 206.395 206.507 229.332 229.454a35.065 35.065 0 0 1 10.326 25.126c0 9.2-3.393 18.26-10.326 25.2-45.865 45.901-206.404 206.564-229.332 229.52Z"
+					              ></path>
+					            </svg>
+					          </button>
+					        </div>
+
+					        <div class="embla__dots"></div>
+					      </div>
+					    </section>
+					    <section class = "mobile-only">
+					    	<div>
+					          	<p><b>Rough Drafts</b></p>
+					          	<img width = "100%" src="../images/projects/flashcards/mobile/carousel1.png">
+					         </div>
+					        <div>
+					          	<p><b>“Table of cards” layout</b></p>
+					          	<img width = "100%" src="../images/projects/flashcards/mobile/carousel2.png">
+					         </div>
+					        <div>
+					          	<p><b>Card overlay layout options</b></p>
+					          	<img width = "100%" src="../images/projects/flashcards/mobile/carousel3.png">
+					          </div>
+					    </section>
+
+					    </div>
+
+
+					    <div data-aos="fade-right">
+							<h3>User testing the prototype</h3>
+							<p>I tested the prototype with about 7 Clients, 4 learners, and a few internal folks. the response was positive with learners mentioning the convenience of these digital cards as a huge plus. Overwhelmingly, everyone I talked to preferred the ‘2D carousel’ layout of these cards.</p>
+							<img class = "flex" style = "max-width:500px; align-items: center; margin:auto;" src="../images/projects/flashcards/image7.png">
+						</div>
+
+						<div data-aos="fade-right">
+							<h3>Translating designs to desktop</h3>
+							<div>
+								<p style = "margin-bottom:0px;"><b>Navigating cards within a modal</b></p>
+								<p style = "margin-top:8px;">The cards were housed in a separate page where users could click one to open a modal</p>
+							</div>
+							<img class = "desktop-only" style = "width:100%; max-width:1000px;display:flex;margin:auto;" src = "../images/projects/flashcards/image8.png">
+							<img class = "mobile-only" style = "width:100%; max-width:1000px;display:flex;margin:auto;" src = "../images/projects/flashcards/mobile/image8.png">
+						</div>
+
+						<div class = "flex" data-aos="fade-right">
+								<div>
+									<p style = "margin-bottom:0px;"><b>Navigating cards with a keyboard & cursor</b></p>
+									<p style = "margin-top:8px;">The first digital cards was going to accompany the re-release of our most popular course, The 7 Habits of Highly Effective Leaders. This course had 2 card decks; one that reviewed the concepts and one that provided practice. One of the biggest decisions we made was to combine both the decks together and lay them out in what we termed a “2D carousel”</p>
+								</div>
+								<img style = "max-width:300px;display:flex;margin:auto;" src = "../images/projects/flashcards/gif2.png">
+						</div>
+
+					</div>
+					<img class="desktop-only" data-aos="fade-right" style = "width:100%;max-width:1000px;display:flex;margin:auto;" src = "../images/projects/flashcards/image9.png">
+					<img class="mobile-only" data-aos="fade-right" style = "width:100%;max-width:1000px;display:flex;margin:auto;" src = "../images/projects/flashcards/mobile/image9.png">
+				</div>
+			</div>
+
+
+
+			
+			
 
 
 			<div class="mobile-only connect-up"></div>
@@ -187,44 +437,29 @@
 			<div class = "the-results darkBG">
 				<div class = "line"></div>
 				<div class = "contain">
-					<h2 data-aos="fade-right" class = "overflow-hide">The results</h2>
-					<div class = "flex">
-						<div data-aos="fade-right" class = "image inner overflow-hide">
-							<img alt = "view of the initial desktop screen of the webpage" src = "../images/projects/sw_women/image4.jpg">
-						</div>
-						<div data-aos="fade-left" class = "text inner overflow-hide">
-							<p class = "first">The story published on December 19, 2019.</p>
-							<p>The story was a hit with our readers although It was definitely divisive with fans who either liked or disliked it. Funnily enough, our data was able to accurately predict the total amount of words Rey would come to speak in the final movie of her trilogy - and no, she was not able to catch up to her two predecessors. </p>
-						    <p>If you want to see the data yourself, what we gathered is now public on github.</p>
-							<p>The story won a variety of awards in the coming year after it’s release</p>
-							<p><a href = "https://www.latimes.com/projects/star-wars-movies-female-character-analysis/">Read the story >></a></p>
-						</div>
+					<div class = "title">
+						<h1 style = "margin-top:0px;" data-aos="fade-right" class = "overflow-hide">DELIVER</h1>
+						<h2 data-aos="fade-right" class = "overflow-hide">Doubling mobile usage, reducing costs, and increasing profit</h2>
+					</div>
+					<div class = "userFindings">
+							<div class = "flex" style = "gap: 60px;justify-content: center;">
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+								<div>
+									<h4>Consult cards outside of sessions</h4>
+									<p>The visuals needed to be aesthetic, easy to implement and load, and representative of the Times' brand identity.</p>
+								</div>
+							</div>
 					</div>
 				</div>
 			</div>
-			<!-- All my awards! So proud -->
-			<div class = "awards darkBG">
-				<h2 data-aos="fade">Awards</h2>
-				<div class = "all">
-					<div data-aos="fade-up" class="award flex">
-						<div class = "inner"><img alt="award icon" src="../images/icons/award-gold.svg"></div>
-						<div class = "inner text"><p>2019 Award of Excellence at Society of News Design(SND) awards</p></div>
-					</div>
-					<div data-aos="fade-up" class="award flex">
-						<div class = "inner"><img alt="award icon" src="../images/icons/award-gold.svg"></div>
-							<div class = "inner text"><p>2020 National Arts and Entertainment Journalism, Award for Graphics</p></div>
-					</div>
-					<div data-aos="fade-up" class="award flex">
-						<div class = "inner"><img alt="award icon" src="../images/icons/award-gold.svg"></div>
-						<div class = "inner text"><p>2020 National Arts and Entertainment Journalism, Award for Commentary Analysis/Trend in Film</p></div>
-					</div>
-					<div data-aos="fade-up" class="award flex">
-						<div class = "inner"><img alt="award icon" src="../images/icons/award-gold.svg"></div>
-						<div class = "inner text"><p>2020 National Arts and Entertainment Journalism, Award for Commentary Diversity/Gender</p></div>
-					</div>
-				</div>
-
-			</div>
+			
 
 
 			<!-- Here is contact info, repeated in every page -->
@@ -246,5 +481,7 @@
 		<script>
 			AOS.init();
 		</script>
+		
+		<script type="module" src="../scripts/caseStudy.js"></script>
 	</footer>
 </html>

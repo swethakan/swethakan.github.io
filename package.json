@@ -15,10 +15,13 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.43.4",
-    "vite": "^5.4.6"
+    "vite": "^7.3.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "scroll-scene-element": "^0.1.0"
   }
 }
